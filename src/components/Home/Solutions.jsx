@@ -8,42 +8,42 @@ const solutionsData = [
     id: 1,
     title: "Home & Office Solutions",
     icon: <FiHome className="h-8 w-8" />,
-    backgroundImage: "https://res.cloudinary.com/dpc285jfe/image/upload/v1692711594/msplwebp/home_dbgl0i.webp", // Replace with actual image paths
+    backgroundImage: "/32.png", // Replace with actual image paths
     description: "Comprehensive energy solutions for residential and commercial spaces"
   },
   {
     id: 2,
     title: "Business Solution",
     icon: <FiBriefcase className="h-8 w-8" />,
-    backgroundImage: "https://res.cloudinary.com/dpc285jfe/image/upload/v1692711594/msplwebp/bsindex_ph6sin.webp",
+    backgroundImage: "/4.png",
     description: "Tailored business energy management and efficiency solutions"
   },
   {
     id: 3,
     title: "Industrial Solution",
     icon: <FiTool className="h-8 w-8" />,
-    backgroundImage: "https://res.cloudinary.com/dpc285jfe/image/upload/v1692711594/msplwebp/isindex_hiuopj.webp",
+    backgroundImage: "5.png",
     description: "Heavy-duty industrial power and infrastructure solutions"
   },
   {
     id: 4,
     title: "Data Center Solutions",
     icon: <FiServer className="h-8 w-8" />,
-    backgroundImage: "	https://res.cloudinary.com/dpc285jfe/image/upload/v1692711594/msplwebp/dsindex_rffolz.webp", // Replace with your actual image paths
+    backgroundImage: "img1.jpeg", // Replace with your actual image paths
     description: "Mission-critical data center power and cooling solutions"
   },
   {
     id: 5,
     title: "Green Solution",
     icon: <FiRefreshCw className="h-8 w-8" />,
-    backgroundImage: "	https://res.cloudinary.com/dpc285jfe/image/upload/v1692711594/msplwebp/gsindex_rfxmg6.webp", // Replace with your actual image paths
+    backgroundImage: "/7.png", // Replace with your actual image paths
     description: "Sustainable and environmentally friendly energy solutions"
   },
   {
     id: 6,
     title: "Electrical Turnkey Contract",
     icon: <FiZap className="h-8 w-8" />,
-    backgroundImage: "https://res.cloudinary.com/dpc285jfe/image/upload/v1692711594/msplwebp/etindex_sld9q1.webp", // Replace with your actual image paths
+    backgroundImage: "/8.png", // Replace with your actual image paths
     description: "Complete electrical project management and implementation"
   }
 ];
@@ -54,7 +54,7 @@ const Solutions = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 ">
+          <h2 className="text-4xl md:text-5xl font-medium text-[#0a1f55] ">
             Our Solutions
           </h2>      
         </div>

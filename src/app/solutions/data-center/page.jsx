@@ -6,103 +6,89 @@ export default function DataCenterSolutions() {
   const sections = [
     {
       id: 1,
-      title: "Data Center Power Infrastructure",
+      title: "Ensuring Data Center Continuity: The Vital Role of UPS Systems",
       icon: <FiServer className="h-8 w-8" />,
+      section:"https://images.unsplash.com/photo-1578410169170-021c8c9c1554?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       paragraphs: [
-        "Mission-critical power infrastructure designed specifically for data centers, providing redundant power distribution, uninterruptible power supplies, and backup generation systems to ensure 99.99% uptime reliability.",
-        "Modular power distribution units (PDUs) and remote power panels provide flexible power delivery with hot-swappable components, allowing for maintenance and expansion without service interruption to critical IT equipment.",
-        "Advanced power monitoring and management systems track real-time consumption, efficiency metrics, and environmental conditions, enabling proactive management and optimization of data center operations.",
-        "Dual-path power distribution with automatic and static transfer switches ensures seamless failover during power events, protecting critical data and maintaining continuous service availability.",
-        "Energy-efficient power conversion and distribution systems minimize power losses and heat generation, reducing cooling requirements and overall operational costs while maximizing available IT capacity.",
-        "Scalable architecture supports data center growth from initial deployment through multiple expansion phases, with standardized components and designs that ensure consistent performance and reliability."
-      ]
+        "The role of UPS systems in data centers is crucial for ensuring uninterrupted and reliable operation of essential IT infrastructure. Even small fluctuations in power can have a significant impact on data center providers.",
+        "When the utility power supply fails or experiences disruptions, UPS systems act as a backup power source. They swiftly and seamlessly switch to battery power, preventing any disruptions in data center operations.",
+        "Efficient UPS systems are essential for data centers to minimize downtime and uphold business continuity.",
+     ]
     },
     {
       id: 2,
-      title: "Precision Cooling Systems",
+      title: "Why Choose Upflair for Data Center Solutions?",
       icon: <FiThermometer className="h-8 w-8" />,
+      section:"https://media.istockphoto.com/id/1423555855/photo/inspiration-showing-sign-e-mail-marketing-business-approach-reasons-for-choosing-our-brand.webp?a=1&b=1&s=612x612&w=0&k=20&c=LerZhhqwmvfwbf21wvKXXZ9-BGQfKTZvxCkD-I6jEOA=",
       paragraphs: [
-        "Precision cooling solutions maintain optimal temperature and humidity conditions for IT equipment while maximizing energy efficiency through advanced control systems and intelligent load management.",
-        "Hot aisle/cold aisle containment systems optimize airflow patterns and prevent hot and cold air mixing, significantly improving cooling efficiency and reducing energy consumption in data center environments.",
-        "Variable capacity cooling systems automatically adjust cooling output based on actual heat loads, providing precise temperature control while minimizing energy waste during periods of lower IT utilization.",
-        "Redundant cooling architecture with N+1 or N+2 configurations ensures continuous cooling availability even during equipment maintenance or unexpected failures, protecting valuable IT infrastructure.",
-        "Advanced monitoring and control systems track temperature, humidity, and airflow throughout the data center, providing early warning of potential issues and enabling proactive maintenance.",
-        "Free cooling and economizer systems take advantage of favorable outdoor conditions to reduce mechanical cooling requirements, significantly lowering energy costs and environmental impact."
-      ]
+        "We take great pride in offering a highly dependable infrastructure with redundant systems, which means that our customers can rely on us for uninterrupted service and minimal risk of downtime.",
+        "Our data center solutions are designed to be incredibly flexible, allowing you to easily adjust your resources as your needs evolve. Whether you're just starting out or planning for significant expansion, our data center solutions can meet your requirements without causing any disruptions.",
+        "Our commitment is to provide you with top-quality services, support your business growth, and guarantee the security and reliability of your critical operations.",
+   ]
     },
-    {
-      id: 3,
-      title: "Uninterrupted Power Supply Systems",
-      icon: <FiCpu className="h-8 w-8" />,
-      paragraphs: [
-        "Enterprise-grade UPS systems provide clean, reliable power during utility outages and power quality events, protecting critical data center equipment from damage and data loss.",
-        "Modular UPS architecture allows for scalable deployment and maintenance without service interruption, with hot-swappable modules that can be added or replaced during operation.",
-        "Battery monitoring and management systems track battery health, predict replacement needs, and optimize charging cycles to maximize battery life and ensure reliable backup power availability.",
-        "Distributed UPS topology reduces single points of failure while providing efficient power conversion and improved system reliability through multiple smaller UPS units rather than single large systems.",
-        "Advanced power conditioning features include voltage regulation, frequency control, and harmonic filtering to ensure clean power delivery that meets the strict requirements of sensitive IT equipment.",
-        "Integration with building management systems and remote monitoring platforms enables centralized oversight of UPS performance, battery status, and maintenance requirements across multiple data centers."
-      ]
-    },
-    {
-      id: 4,
-      title: "Data Center Monitoring Solutions",
-      icon: <FiMonitor className="h-8 w-8" />,
-      paragraphs: [
-        "Comprehensive monitoring solutions provide real-time visibility into all aspects of data center operations, including power, cooling, security, and environmental conditions from centralized dashboards.",
-        "Environmental monitoring systems track temperature, humidity, air pressure, and air quality throughout the data center, alerting operators to conditions that could threaten equipment reliability.",
-        "Power monitoring and metering systems measure consumption at multiple levels from facility entrance to individual servers, enabling detailed analysis of power usage effectiveness (PUE) and optimization opportunities.",
-        "Intelligent alerting and notification systems provide early warning of potential issues through multiple communication channels, enabling rapid response to prevent service disruptions.",
-        "Historical data logging and analytics capabilities identify trends, predict future needs, and support capacity planning decisions for both power and cooling infrastructure.",
-        "Integration with IT service management platforms creates a complete operational picture that correlates infrastructure performance with application and service availability metrics."
-      ]
-    },
-    {
-      id: 5,
-      title: "Security and Access Control",
-      icon: <FiShield className="h-8 w-8" />,
-      paragraphs: [
-        "Multi-layered physical security systems protect data center assets through perimeter security, access control, surveillance, and intrusion detection tailored specifically for mission-critical facilities.",
-        "Biometric access control systems provide secure authentication using fingerprint, iris, or facial recognition technology, ensuring that only authorized personnel can access sensitive areas.",
-        "Comprehensive video surveillance with intelligent analytics monitors all areas of the data center, providing real-time alerts for unauthorized access attempts or suspicious activities.",
-        "Mantrap entry systems and security vestibules provide controlled access to critical areas, preventing tailgating and ensuring proper authentication before entry to server rooms.",
-        "Integration with fire suppression and life safety systems ensures coordinated response to emergency situations while maintaining security protocols and protecting personnel safety.",
-        "Audit trails and compliance reporting track all access events and security activities, supporting regulatory requirements and providing detailed forensic capabilities for security investigations."
-      ]
-    }
+  
+  
   ];
 
   const imageGallery = [
     {
-      title: "Data Center Operations Center",
-      description: "State-of-the-art network operations center providing 24/7 monitoring and management of critical data center infrastructure and IT systems.",
-      image: "/datacenter-1.jpg"
+      title: "EASY-UPS",
+      description: "Un-Interrupted Power for Server Rack",
+      image: "https://msplgroup.com/assets/img/dcs1.png"
     },
     {
-      title: "Server Room Infrastructure",
-      description: "Mission-critical server room with redundant power distribution, precision cooling, and advanced monitoring systems for maximum uptime.",
-      image: "/datacenter-2.jpg"
+      title: "AIR ECONOMIZERS",
+      description: "Precision Air Conditioning",
+      image: "https://msplgroup.com/assets/img/dcs2.png"
     },
     {
-      title: "UPS Power Systems",
-      description: "Enterprise-grade uninterruptible power supply systems providing clean, reliable backup power for critical data center operations.",
-      image: "/datacenter-3.jpg"
+      title: "ECO ASILE",
+      description: "Precision Air Conditioning",
+      image: "https://msplgroup.com/assets/img/dcs3.png"
     },
     {
-      title: "Cooling Infrastructure",
-      description: "Advanced precision cooling systems with hot aisle containment and variable capacity controls for optimal energy efficiency.",
-      image: "/datacenter-4.jpg"
+      title: "CHILLERS",
+      description: "Precision Air Conditioning",
+      image: "https://msplgroup.com/assets/img/dcs4.png"
+    },
+    
+    {
+      title: "AIR CONDITIONER",
+      description: "Precision Air Conditioning",
+      image: "https://msplgroup.com/assets/img/dcs6.png"
     },
     {
-      title: "Security Control Center",
-      description: "Comprehensive security monitoring and access control systems protecting critical data center assets and ensuring authorized access only.",
-      image: "/datacenter-5.jpg"
+      title: "RACK",
+      description: "Racks and Enclosures",
+      image: "https://msplgroup.com/assets/img/dcs7.png"
+    },
+    {
+      title: "ROW 3",
+      description: "Power Distribution",
+      image: "https://msplgroup.com/assets/img/dcs8.png"
+    },
+    {
+      title: "ROOM",
+      description: "Power Distribution",
+      image: "/20.jpeg"
+    },
+    {
+      title: "SWITCHES",
+      description: "Power Distribution",
+      image: "/21.png"
+    },
+    {
+      title: "CAMERAS",
+      description: "Security and Environmental Monitoring",
+      image: "/22.png"
     }
+  
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[400px] bg-[url('/6.png')] bg-cover bg-center">
+      <section className="relative h-[400px] bg-[url('/img1.jpeg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Data Center Solutions</h1>
@@ -116,10 +102,10 @@ export default function DataCenterSolutions() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Ensuring Mission-Critical Reliability</h2>
+          <div className="text-center max-w-7xl mx-auto mb-16">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Product and the solutions we can provide</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our data center solutions provide the highest levels of reliability, efficiency, and security for mission-critical operations, ensuring your digital infrastructure operates at peak performance 24/7.
+              Our Data Center Solutions offer professional and efficient power solutions tailored to meet the specific needs of data centers. We understand that reliable and uninterrupted power is crucial for smooth operations.
             </p>
           </div>
 
@@ -143,11 +129,11 @@ export default function DataCenterSolutions() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
+                  <div className="bg-gray-200 rounded-2xl h-90 flex items-center justify-center">
                     <img 
-                      src={`/datacenter-section-${section.id}.jpg`}
+                      src={section.section}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover "
                     />
                   </div>
                 </div>

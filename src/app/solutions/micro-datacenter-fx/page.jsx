@@ -117,9 +117,9 @@ export default function MicroDataCentreFXSolutions() {
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Edge Computing Revolution</h2>
+            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Product and the solutions we can provide</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our Micro Data Centre FX solutions bring enterprise-grade computing infrastructure to the edge, enabling low-latency processing, improved performance, and distributed computing capabilities in compact, efficient form factors.
+              A micro data center, also known as a modular or edge data center, is a compact and self-contained facility that provides computing power and storage capabilities in a smaller space.
             </p>
           </div>
 

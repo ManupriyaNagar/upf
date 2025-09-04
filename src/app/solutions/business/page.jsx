@@ -6,96 +6,69 @@ export default function BusinessSolutions() {
   const sections = [
     {
       id: 1,
-      title: "Business Energy Audits",
+      title: "Power Solutions for Businesses:",
       icon: <FiBarChart className="h-8 w-8" />,
+      section:"https://www.unisunpowersolutions.com/wp-content/uploads/2025/03/toolxox.com-h7wsRbpigF-1024x577.jpg",
       paragraphs: [
-        "Comprehensive business energy audits provide detailed analysis of your organization's energy consumption patterns, identifying opportunities for cost reduction and efficiency improvements across all operational areas.",
-        "Our expert auditors utilize advanced monitoring equipment and data analytics to examine electrical systems, HVAC operations, lighting efficiency, and equipment performance to create a complete energy profile of your business.",
-        "Detailed reporting includes actionable recommendations prioritized by potential savings, implementation cost, and return on investment, enabling informed decision-making for energy improvement projects.",
-        "Benchmark analysis compares your energy performance against industry standards and similar businesses, helping identify areas where your organization can achieve competitive advantages through improved efficiency.",
-        "Ongoing monitoring services track progress after implementation of recommended improvements, ensuring that projected savings are achieved and maintained over time.",
-        "Regulatory compliance support ensures that your business meets all applicable energy standards and can take advantage of available incentives, rebates, and tax credits for energy efficiency improvements."
+        "At Upflair Technologies, we deliver smart and dependable power solutions tailored to your business needs. Our commitment is to ensure uninterrupted operations, empowering you to focus on growth while we take care of reliable energy support.",
+        "At Upflair Technologies, our UPS solutions—designed for both small and large enterprises—deliver instant backup power to keep your operations running seamlessly. From maintaining productivity to safeguarding customer service and critical data, our systems provide the reliable protection your business needs until primary power is restored or alternate sources take over.",
+        "Voltage stabilizers, or voltage regulators, ensure a steady and reliable flow of electricity to safeguard sensitive equipment. Sudden surges, drops, or spikes in voltage can damage critical systems like computers, servers, and industrial machinery—leading to costly repairs and downtime.",
+        "Batteries are the backbone of reliable backup power, ensuring business continuity during outages. Integral to UPS systems, they safeguard critical operations by preventing data loss, enabling safe equipment shutdown, and supporting sectors like data centers, hospitals, financial institutions, and telecoms where uninterrupted power is essential.",
       ]
     },
     {
       id: 2,
-      title: "Cost Optimization Strategies",
+      title: "Experience the Benefits of Remote Monitoring:",
       icon: <FiTrendingUp className="h-8 w-8" />,
+      section:"https://media.noria.com/sites/Uploads/2019/11/19/959b09e3-6fe6-4b90-a755-bf2e473ffb84_ArticleImages_RP31485_1234x694_09202019_extra_large.jpeg",
       paragraphs: [
-        "Strategic cost optimization goes beyond simple energy reduction to encompass comprehensive financial planning that maximizes operational efficiency while minimizing total cost of ownership for business systems.",
-        "Demand management strategies help businesses avoid costly peak demand charges by implementing load shifting, energy storage, and automated demand response systems that reduce electricity costs during high-rate periods.",
-        "Power factor correction and electrical system optimization reduce utility penalties and improve overall system efficiency, resulting in immediate cost savings and improved equipment reliability.",
-        "Energy procurement strategies include competitive supplier selection, contract negotiation, and risk management to secure the most favorable energy rates and terms for your business operations.",
-        "Equipment lifecycle management ensures optimal timing for system upgrades and replacements, balancing capital expenditure with operational savings to maximize return on investment.",
-        "Financial modeling and forecasting provide long-term visibility into energy costs and savings opportunities, enabling strategic planning and budgeting for future energy-related investments."
+        "1] Real-time Visibility: Gain instant access to the status and performance of your UPS systems and batteries, right at your fingertips.",
+        "2] Proactive Maintenance: Stay ahead of maintenance needs by receiving timely alerts and notifications for low battery levels, temperature anomalies, or potential risks.",
+        "3] Minimize Downtime: Detect issues early on and resolve them promptly to minimize disruptions and ensure smooth operations.",
+        "4] Cost Savings: Improve operational efficiency and reduce maintenance expenses through effective remote monitoring.",
+        "5] Safety Audit: A safety audit is a thorough evaluation of a business's safety practices, procedures, and infrastructure. It is conducted to ensure compliance with regulations, identify potential hazards, and enhance overall safety performance.",
+
       ]
     },
-    {
-      id: 3,
-      title: "Smart Office Automation",
-      icon: <FiUsers className="h-8 w-8" />,
-      paragraphs: [
-        "Intelligent office automation systems create productive work environments through integrated control of lighting, climate, security, and communication systems that adapt to occupancy patterns and user preferences.",
-        "Occupancy-based controls automatically adjust lighting, temperature, and ventilation based on real-time presence detection, ensuring comfort when needed while minimizing energy waste in unoccupied areas.",
-        "Meeting room automation includes integrated audio-visual systems, automatic scheduling displays, and environmental controls that create seamless experiences for presentations and collaboration.",
-        "Workspace personalization allows employees to customize their immediate environment through mobile applications, improving comfort and productivity while maintaining overall building efficiency.",
-        "Integration with business systems includes calendar synchronization, visitor management, and facilities booking that streamline operations and enhance the employee experience.",
-        "Data analytics and reporting provide insights into space utilization, energy consumption, and employee preferences, enabling continuous optimization of office operations and planning for future needs."
-      ]
-    },
-    {
-      id: 4,
-      title: "Energy Usage Analytics",
-      icon: <FiTarget className="h-8 w-8" />,
-      paragraphs: [
-        "Advanced energy analytics platforms provide real-time visibility into consumption patterns, enabling proactive management of energy costs and identification of optimization opportunities across your business operations.",
-        "Machine learning algorithms analyze historical data to identify anomalies, predict equipment failures, and recommend optimal operating schedules that minimize energy costs while maintaining operational requirements.",
-        "Detailed sub-metering and monitoring track energy usage by department, equipment, or process, enabling accurate cost allocation and targeted efficiency improvements where they will have the greatest impact.",
-        "Predictive analytics forecast future energy needs based on business growth, seasonal patterns, and operational changes, supporting strategic planning and budget development for energy-related expenses.",
-        "Benchmarking capabilities compare your energy performance against industry standards and best practices, identifying opportunities to achieve superior efficiency and competitive advantages.",
-        "Automated reporting and alerting systems notify management of unusual consumption patterns, equipment inefficiencies, or cost-saving opportunities, enabling rapid response to optimize performance."
-      ]
-    },
-    {
-      id: 5,
-      title: "Scalable Business Infrastructure",
-      icon: <FiBriefcase className="h-8 w-8" />,
-      paragraphs: [
-        "Scalable infrastructure solutions grow with your business, providing flexible electrical and automation systems that can adapt to changing operational requirements without major capital expenditure.",
-        "Modular design approaches enable phased implementation and expansion of energy systems, allowing businesses to spread costs over time while maintaining optimal performance at each stage of growth.",
-        "Future-ready installations incorporate advanced technologies and expandable architectures that support emerging business needs, ensuring long-term value and avoiding costly retrofits.",
-        "Standardized platforms and protocols ensure compatibility across different systems and vendors, providing flexibility in equipment selection and reducing long-term maintenance complexity.",
-        "Cloud-based management systems provide remote monitoring and control capabilities that scale seamlessly from single locations to multi-site enterprises without additional infrastructure investment.",
-        "Professional support services include system design, implementation planning, training, and ongoing maintenance to ensure that your infrastructure continues to meet business needs as you grow."
-      ]
-    }
+
+
   ];
 
   const imageGallery = [
     {
-      title: "Energy Analytics Dashboard",
-      description: "Comprehensive energy monitoring and analytics platform that provides real-time insights into business energy consumption and optimization opportunities.",
-      image: "/business-1.jpg"
+      title: "SMART-UPS",
+      description: "Home Theatere & Smart Homes",
+      image: "https://msplgroup.com/assets/img/smart-ups.png"
     },
     {
-      title: "Smart Office Control System",
-      description: "Integrated office automation solution that manages lighting, climate, and security systems to enhance productivity while reducing operational costs.",
-      image: "/business-2.jpg"
+      title: "BACK-UPS-PRO",
+      description: "Computer & Peripherals",
+      image: "https://msplgroup.com/assets/img/hos3.png"
     },
     {
-      title: "Cost Optimization Interface",
-      description: "Advanced cost management tools that track energy expenses, identify savings opportunities, and optimize utility procurement strategies.",
-      image: "/business-3.jpg"
+      title: "BACK-UPS",
+      description: "Computer & Peripherals",
+      image: "https://msplgroup.com/assets/img/hos4.png"
     },
     {
-      title: "Business Energy Audit",
-      description: "Professional energy assessment using state-of-the-art monitoring equipment to identify efficiency improvements and cost reduction opportunities.",
-      image: "/business-4.jpg"
+      title: "Easy UPS On-Line",
+      description: "Computer & Peripherals",
+      image: "https://msplgroup.com/assets/img/easy-ups-on-line.png"
     },
     {
-      title: "Scalable Infrastructure",
-      description: "Flexible and expandable electrical infrastructure designed to grow with your business needs while maintaining optimal efficiency and performance.",
-      image: "/business-5.jpg"
+      title: "SMART-UPS",
+      description: "Home Theatere & Smart Homes",
+      image: "https://msplgroup.com/assets/img/hos1.png"
+    },
+    {
+      title: "EASY-3M-UPS",
+      description: "Power Backup for Industrial Load",
+      image: "https://msplgroup.com/assets/img/is1.png"
+    },
+    {
+      title: "Symmetra LX UPS ",
+      description: "Power Backup for Industrial Load",
+      image: "https://msplgroup.com/assets/img/symmetra-lx-ups.png"
     }
   ];
 
@@ -113,14 +86,15 @@ export default function BusinessSolutions() {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 ">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Optimizing Business Operations Through Smart Energy Management</h2>
+          <div className="text-center max-w-7xl mx-auto mb-16">
+            <h2 className="text-4xl font-medium text-[#0a1f55] mb-6">Product and the solutions we can provide</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our business solutions combine strategic energy management with cutting-edge technology to reduce operational costs, improve efficiency, and create competitive advantages for your organization.
+              We provide reliable and efficient power protection solutions for small to medium-sized businesses. Our products are designed to offer high density, true double-conversion, and online power protection for various equipment such as servers, voice/data networks, point-of-sale (POS) equipment, medical labs, and light industrial applications.             With our top-notch range of power solutions, we ensure that your business receives the best products and services.
             </p>
+
           </div>
 
           {/* Main Content Sections */}
@@ -143,11 +117,11 @@ export default function BusinessSolutions() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
+                   <div className="bg-gray-200 rounded-2xl h-130 flex items-center justify-center">
                     <img 
-                      src={`/business-section-${section.id}.jpg`}
+                      src={section.section}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover "
                     />
                   </div>
                 </div>
@@ -157,12 +131,13 @@ export default function BusinessSolutions() {
 
           {/* Image Gallery Section */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Business Solution Gallery</h2>
+            <h2 className="text-4xl font-medium text-[#0a1f55] mb-12 text-center">
+              Experience the power of remote monitoring and take control of your UPS systems and batteries like never before.</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-                  <div className="h-64 bg-gray-200">
-                    <img 
+                  <div className="h-98 bg-gray-200">
+                    <img
                       src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover"

@@ -77,7 +77,7 @@ const Testimonials = () => {
       <div className="container mx-auto ">
         {/* Main Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-gray-900 leading-tight max-w-4xl mx-auto">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#132b74] leading-tight max-w-4xl mx-auto">
           Clients Review
           </h2>
         </div>
@@ -88,26 +88,16 @@ const Testimonials = () => {
           <div className="relative">
             <div className=" aspect-[4/2] flex items-center justify-center text-gray-600 -mt-12">
               <div className="text-center">
-                <img src="/img1.jpeg" alt="" />
+                <img src="/review.png" alt="" />
               </div>
             </div>
           </div>
 
           {/* Right Side - Testimonial Content */}
-          <div className="relative">
-            <div className="bg-white p-8 md:p-12 shadow-lg relative h-[500px] flex flex-col justify-between">
-              {/* Quote */}
-              <div className="flex-1">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0a1f55] mb-6 line-clamp-2">
-                  "{currentTestimonial.name === 'Rajesh Mehta' ? 'Many Benefits for the environment' : currentTestimonial.review.split('.')[0]}."
-                </h3>
-                <p className="text-gray-600 text-lg leading-relaxed line-clamp-6 overflow-hidden">
-                  {currentTestimonial.review}
-                </p>
-              </div>
-
-              {/* Client Info - Fixed at bottom */}
-              <div className="mt-auto">
+          <div className="relative mt-18">
+            
+            <div className="bg-white p-8 md:p-12 shadow-lg relative h-[350px] flex flex-col justify-between">
+                 <div className="mt-auto">
                 <div className="flex items-center gap-4 mb-6">
                   {/* Avatar */}
                   <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 text-sm font-medium">
@@ -117,9 +107,7 @@ const Testimonials = () => {
                     <h4 className="text-xl font-bold text-gray-900">
                       {currentTestimonial.name}
                     </h4>
-                    {/* <p className="text-gray-600">
-                      {currentTestimonial.position}
-                    </p> */}
+               
                        <div className="flex gap-1">
                   {renderStars(currentTestimonial.rating)}
                 </div>
@@ -130,10 +118,19 @@ const Testimonials = () => {
                 {/* Rating Stars */}
               
               </div>
+              {/* Quote */}
+              <div className="flex-1">
+                <p className="text-gray-600 text-lg leading-relaxed line-clamp-6 overflow-hidden">
+                  {currentTestimonial.review}
+                </p>
+              </div>
+
+              {/* Client Info - Fixed at bottom */}
+           
             </div>
 
             {/* Navigation Arrows */}
-            <div className="flex flex-row absolute bottom-4 -right-1 transform -translate-y-1/2 flex flex-col gap-4">
+            <div className="flex flex-row absolute top-20 right-60 transform -translate-y-1/2 flex flex-col gap-4">
               <button
                 onClick={prevTestimonial}
                 className="w-12 h-12 bg-white shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors duration-200 group"

@@ -2,6 +2,7 @@
 import React from "react";
 import { FiAward, FiUsers, FiTrendingUp, FiShield, FiGlobe, FiHeart ,FiClock} from "react-icons/fi";
 import { Mail, Phone, MapPin } from "lucide-react";
+import ProcessCard from "@/components/About/ProcessCard";
 
 export default function AboutPage() {
   // Company values data
@@ -76,40 +77,19 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 ">
         <div className="max-w-7xl mx-auto">
           {/* Introduction Section */}
-          <div className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Our Story</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
+          <div className="text-center max-w-7xl mx-auto mb-20">
+            <h2 className="text-5xl font-medium text-[#0a1f55]  mb-6">Our Story</h2>
+            <p className="text-gray-600 text-lg leading-relaxed ">
               Upflair Technology specializes in the electrical industry, having successfully completed numerous national-scale commercial and industrial projects. We provide reliable, efficient, and cost-effective solutions to both local and multinational companies across India. Offering end-to-end services, from design to execution and project management, we ensure top-quality results. Our commitment is backed by extensive technical support, after-sales service, and a well-stocked inventory for prompt customer response.
             </p>
           </div>
 
-          {/* Mission and Vision Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
-            {/* Mission */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 text-blue-700">
-                <FiTrendingUp className="h-8 w-8" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed">
-                To provide cutting-edge technology solutions that empower businesses to thrive in an increasingly connected world. We are committed to delivering innovative, reliable, and scalable solutions that meet the evolving needs of our clients.
-              </p>
-            </div>
+          <ProcessCard/>
 
-            {/* Vision */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 text-purple-700">
-                <FiAward className="h-8 w-8" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed">
-                To be a globally recognized leader in technology solutions, setting industry standards for excellence and innovation. We strive to create long-term value for our clients through strategic partnerships and a relentless focus on quality and customer satisfaction.
-              </p>
-            </div>
-          </div>
+      
 
           {/* Achievements Section */}
           <div className="mb-20">
@@ -134,28 +114,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Values Section */}
-          <div className="mb-20">
-            <h3 className="text-4xl font-semibold text-center text-gray-900 mb-12">Our Core Values</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {companyValues.map((value, index) => (
-                <div 
-                  key={index}
-                  className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0a1f55]/20"
-                >
-                  <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#0a1f55]/10 text-[#0a1f55] transition-all duration-300 group-hover:bg-[#0a1f55] group-hover:text-white group-hover:scale-110">
-                    {value.icon}
-                  </div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#0a1f55] transition-colors duration-300">
-                    {value.title}
-                  </h4>
-                  <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                    {value.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
+     
 
           {/* Why Choose Us Section */}
           <div className="bg-gradient-to-br from-[#0a1f55] to-[#132b74] rounded-2xl p-8 md:p-12 text-white mb-20">

@@ -6,96 +6,41 @@ export default function VideoSurveillanceSolutions() {
   const sections = [
     {
       id: 1,
-      title: "Advanced Camera Systems",
+      title: "Is video Surveillance for CCTV same?",
       icon: <FiCamera className="h-8 w-8" />,
+      img: "https://images.unsplash.com/photo-1666613789268-e8f311259920?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       paragraphs: [
-        "State-of-the-art IP camera systems with ultra-high definition 4K and 8K resolution capabilities provide crystal-clear video surveillance for comprehensive security monitoring across residential, commercial, and industrial facilities.",
-        "Intelligent video analytics and AI-powered features including facial recognition, license plate detection, object tracking, and behavioral analysis enhance security effectiveness while reducing false alarms and manual monitoring requirements.",
-        "Wide dynamic range (WDR) and low-light performance ensure optimal image quality in challenging lighting conditions, providing 24/7 surveillance capability regardless of environmental factors or time of day.",
-        "Vandal-resistant and weatherproof camera housings protect equipment in harsh environments while maintaining optimal performance, ensuring reliable operation in outdoor installations and high-risk areas.",
-        "Pan-tilt-zoom (PTZ) cameras with precise motor control and programmable patrol patterns provide flexible monitoring coverage and the ability to focus on specific areas of interest when security events occur.",
-        "Thermal imaging capabilities detect heat signatures and provide surveillance in complete darkness or adverse weather conditions, offering enhanced security monitoring beyond traditional visible light cameras."
+        "Yes, video surveillance and closed-circuit television (CCTV) are essentially the same thing.",
+        "CCTV is a specific type of video surveillance system that uses cameras to capture and record video footage for monitoring and security purposes.",
+        "The phrase 'closed-circuit' describes how the video feeds are kept within a closed system and not publicly broadcast, usually being watched on monitors or being recorded for later review.",
+        "Video surveillance is a broader term that encompasses various types of systems and technologies used for monitoring and recording video footage.",
+        
       ]
     },
     {
       id: 2,
-      title: "Intelligent Monitoring Systems",
+      title: "Discover our top-notch video surveillance solutions!",
+      img:"https://images.unsplash.com/photo-1589935447067-5531094415d1?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FiEye className="h-8 w-8" />,
+
       paragraphs: [
-        "Centralized video management systems (VMS) provide unified control and monitoring of multiple camera feeds, recording systems, and security devices from a single intuitive interface accessible from control rooms or mobile devices.",
-        "Real-time event detection and automated alerting systems notify security personnel immediately when predefined conditions are met, enabling rapid response to security incidents and reducing potential losses.",
-        "Motion detection and perimeter protection systems create virtual security zones and trigger automatic recording, lighting, or alarm systems when unauthorized access is detected in restricted areas.",
-        "Integration with access control systems correlates video footage with entry events, providing comprehensive security logs and enabling forensic investigation capabilities for security incidents.",
-        "Remote monitoring capabilities allow authorized personnel to view live video feeds and recorded footage from anywhere using secure internet connections and mobile applications.",
-        "Video analytics and search functions enable rapid location of specific events or individuals within large video archives, significantly reducing investigation time and improving security response effectiveness."
-      ]
-    },
-    {
-      id: 3,
-      title: "Network Video Recording",
-      icon: <FiMonitor className="h-8 w-8" />,
-      paragraphs: [
-        "Enterprise-grade network video recorders (NVR) provide reliable storage and management of video data with redundant storage options, ensuring critical footage is preserved and accessible when needed.",
-        "Scalable storage architecture supports both local and cloud-based recording options, with automatic failover capabilities that ensure continuous recording even during hardware failures or network interruptions.",
-        "Intelligent recording schedules and motion-triggered recording optimize storage utilization while ensuring all critical events are captured, reducing storage costs and extending retention periods.",
-        "Advanced compression technologies including H.264 and H.265 codecs minimize bandwidth requirements and storage consumption while maintaining high video quality for evidence and forensic purposes.",
-        "Redundant RAID storage configurations protect against data loss and provide high availability for critical security recordings, ensuring video evidence remains accessible for legal and investigative purposes.",
-        "Automated backup and archival systems transfer older recordings to long-term storage while maintaining quick access to recent footage, optimizing performance and storage management."
-      ]
-    },
-    {
-      id: 4,
-      title: "Access Control Integration",
-      icon: <FiShield className="h-8 w-8" />,
-      paragraphs: [
-        "Seamless integration with electronic access control systems correlates video surveillance with entry events, providing comprehensive security monitoring and detailed audit trails for all facility access.",
-        "Biometric authentication systems including fingerprint, facial recognition, and iris scanning provide high-security access control while automatically triggering video recording of all entry attempts.",
-        "Visitor management systems with integrated photography and video verification ensure all visitors are properly documented and monitored throughout their time on the premises.",
-        "Emergency lockdown capabilities can be triggered automatically by video analytics or manually by security personnel, securing facilities during security incidents or emergency situations.",
-        "Mobile access control allows authorized personnel to grant temporary access remotely while monitoring entry through live video feeds, providing flexibility while maintaining security protocols.",
-        "Compliance reporting and audit trail generation provide detailed logs of all access events and video recordings for regulatory compliance and security assessment purposes."
-      ]
-    },
-    {
-      id: 5,
-      title: "Cloud-Based Solutions",
-      icon: <FiCloud className="h-8 w-8" />,
-      paragraphs: [
-        "Cloud-based video surveillance platforms provide scalable, cost-effective solutions with automatic software updates, remote configuration, and enterprise-grade security without requiring on-site server infrastructure.",
-        "Hybrid cloud storage solutions combine local recording for immediate access with cloud backup for long-term retention, providing optimal performance while ensuring data protection and accessibility.",
-        "Multi-site management capabilities enable centralized monitoring and management of surveillance systems across multiple locations from a single dashboard, simplifying operations for distributed organizations.",
-        "Bandwidth optimization and intelligent streaming reduce network requirements while maintaining video quality, making cloud-based solutions viable even for locations with limited internet connectivity.",
-        "Automatic software updates and security patches ensure surveillance systems remain current with latest features and security protections without requiring on-site technical support.",
-        "Pay-as-you-scale pricing models allow organizations to start with basic systems and expand capabilities as needs grow, providing cost-effective surveillance solutions for businesses of all sizes."
+        "Safeguard your home and office with our user-friendly analog HD cameras. Equipped with night vision, digital zoom, wide-angle lenses, and advanced video analytics, our cameras offer reliable protection.",
+        "Count on MAHAVIR SYS POWER Group to provide you with trustworthy analog HD cameras, ensuring peace of mind and protection against any potential issues you may encounter."
+        
       ]
     }
   ];
 
   const imageGallery = [
     {
-      title: "Security Control Center",
-      description: "Professional security monitoring center with multiple displays showing live video feeds and integrated access control systems for comprehensive facility security.",
-      image: "/surveillance-1.jpg"
+      title: "VIDEO-CAMERA",
+      description: "Analog video Surveillance System",
+      image: "https://msplgroup.com/assets/img/vscaa.png"
     },
     {
-      title: "IP Camera Installation",
-      description: "High-definition IP cameras with advanced analytics capabilities providing 24/7 surveillance coverage for commercial and industrial facilities.",
-      image: "/surveillance-2.jpg"
-    },
-    {
-      title: "Video Analytics Dashboard",
-      description: "Intelligent video management system with AI-powered analytics for automated threat detection and comprehensive security monitoring.",
-      image: "/surveillance-3.jpg"
-    },
-    {
-      title: "Mobile Monitoring App",
-      description: "Remote video surveillance access through secure mobile applications enabling real-time monitoring from anywhere with internet connectivity.",
-      image: "/surveillance-4.jpg"
-    },
-    {
-      title: "Integrated Security System",
-      description: "Complete security solution combining video surveillance with access control and alarm systems for comprehensive facility protection.",
-      image: "/surveillance-5.jpg"
+      title: "CCTV-CAMERA",
+      description: "IP Video Surveillance System",
+      image: "https://msplgroup.com/assets/img/vscbb.png"
     }
   ];
 
@@ -116,10 +61,10 @@ export default function VideoSurveillanceSolutions() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Comprehensive Security Through Intelligent Surveillance</h2>
+          <div className="text-center max-w-7xl mx-auto mb-16">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Product and the solutions we can provide</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our video surveillance solutions provide advanced security monitoring with AI-powered analytics, ensuring comprehensive protection for your facilities while enabling proactive threat detection and response.
+              Video surveillance, also known as CCTV monitoring, uses cameras to capture and record video footage for security and monitoring
             </p>
           </div>
 
@@ -143,11 +88,11 @@ export default function VideoSurveillanceSolutions() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
+                  <div className="bg-gray-200  h-80 flex items-center justify-center">
                     <img 
-                      src={`/surveillance-section-${section.id}.jpg`}
+                      src={section.img}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover "
                     />
                   </div>
                 </div>
@@ -158,7 +103,7 @@ export default function VideoSurveillanceSolutions() {
           {/* Image Gallery Section */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Video Surveillance Gallery</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
                   <div className="h-64 bg-gray-200">

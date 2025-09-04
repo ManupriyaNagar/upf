@@ -6,97 +6,48 @@ export default function IndustrialSolutions() {
   const sections = [
     {
       id: 1,
-      title: "Industrial Power Distribution Systems",
+      title: "Some Important Aspects of Industrial Solutions:",
       icon: <FiZap className="h-8 w-8" />,
+      section:"https://images.unsplash.com/photo-1708876955225-67542fb2d6ca?q=80&w=2154&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       paragraphs: [
-        "Advanced industrial power distribution systems provide reliable, efficient, and safe electrical infrastructure for manufacturing facilities, processing plants, and other heavy industrial applications requiring high-capacity power management.",
-        "Robust switchgear and distribution panels are engineered to handle extreme industrial environments, featuring arc-resistant designs, advanced protection systems, and modular construction for easy maintenance and expansion.",
-        "Power quality solutions include harmonic filtering, voltage regulation, and power factor correction to ensure clean, stable power delivery that protects sensitive equipment and optimizes operational efficiency.",
-        "Redundant power systems and automatic transfer capabilities ensure continuous operation during utility outages or equipment failures, minimizing costly production downtime and protecting critical processes.",
-        "Smart metering and monitoring systems provide real-time visibility into power consumption, demand patterns, and system performance, enabling proactive maintenance and energy optimization strategies.",
-        "Compliance with industrial safety standards including IEEE, NEMA, and OSHA requirements ensures worker safety and regulatory compliance while maintaining optimal system performance and reliability."
+        "1] On-site power generation is a key component of industrial power solutions. This involves using generators or cogeneration systems to ensure reliable backup power during outages.",
+        "2] Industrial facilities need strong power distribution systems to efficiently transmit electricity from the source to various equipment and machinery. This includes transformers, switchgear, distribution panels, busbar systems, and protective devices to ensure safe and reliable power distribution.",
+        "3] Effective energy management is crucial in industrial settings to optimize power usage and reduce costs.",
+        "4] Power disruptions can be very costly for industrial environments, leading to production downtime and equipment damage.",
+        "5] Power factor correction equipment, like capacitors, helps to reduce reactive power consumption, lower energy costs, and improve overall system performance.",
       ]
     },
     {
       id: 2,
-      title: "Heavy Machinery Electrical Solutions",
+      title: "Why Choose Upflair for Industrial Solutions:",
       icon: <FiCpu className="h-8 w-8" />,
+      section:"https://media.istockphoto.com/id/2148275696/photo/detail-of-electrician-using-equipment-in-shop.webp?a=1&b=1&s=612x612&w=0&k=20&c=L9rADhB9E6RQQIpdr0xqNbQ-mIEP6NSAaHhIgmEr-wQ=",
       paragraphs: [
-        "Specialized electrical solutions for heavy industrial machinery including motor control centers, variable frequency drives, and custom control panels designed to optimize performance and extend equipment life.",
-        "Motor protection and control systems provide precise speed control, torque management, and overload protection for critical industrial processes, ensuring reliable operation under demanding conditions.",
-        "Custom automation interfaces integrate machinery control with plant-wide systems, enabling coordinated operation, remote monitoring, and predictive maintenance capabilities for improved efficiency.",
-        "Energy-efficient motor technologies and drive systems reduce power consumption while maintaining or improving performance, resulting in significant operational cost savings and reduced environmental impact.",
-        "Predictive maintenance systems use vibration analysis, thermal monitoring, and electrical signature analysis to detect potential failures before they occur, preventing costly unplanned downtime.",
-        "Retrofit and upgrade services modernize existing machinery with current technology, improving efficiency, safety, and reliability while extending the useful life of capital equipment investments."
+        "At Upflair, we provide industrial solutions that can give your business a competitive edge. With a wide range of products and solutions offered at the best price, you can rely on us to meet your needs.",
+        "Our comprehensive approach ensures smooth and efficient project implementation, delivering a hassle-free experience for our clients.",
+        "Safety is a top priority in industrial environments, and our company takes it seriously in every aspect of our solutions. We are committed to complying with industry regulations and standards, implementing strong safety measures, and conducting thorough risk assessments to minimize hazards and safeguard the well-being of both personnel and assets.",
       ]
     },
-    {
-      id: 3,
-      title: "Factory Automation and Control Systems",
-      icon: <FiSettings className="h-8 w-8" />,
-      paragraphs: [
-        "Comprehensive factory automation solutions integrate manufacturing processes, material handling, quality control, and information systems to optimize production efficiency and product quality.",
-        "Programmable logic controllers (PLCs) and distributed control systems (DCS) provide precise process control with real-time monitoring, data logging, and automatic adjustment capabilities.",
-        "Human-machine interfaces (HMI) and supervisory control systems enable operators to monitor and control complex manufacturing processes from centralized control rooms with intuitive graphical displays.",
-        "Industrial networking and communication protocols ensure seamless data exchange between automation systems, enterprise software, and remote monitoring platforms for complete operational visibility.",
-        "Safety instrumented systems (SIS) and emergency shutdown systems protect personnel, equipment, and the environment by automatically responding to hazardous conditions with fail-safe operation.",
-        "Integration with enterprise resource planning (ERP) and manufacturing execution systems (MES) creates a complete digital manufacturing environment that optimizes production scheduling and resource utilization."
-      ]
-    },
-    {
-      id: 4,
-      title: "Industrial Safety and Compliance",
-      icon: <FiShield className="h-8 w-8" />,
-      paragraphs: [
-        "Comprehensive safety systems designed to meet stringent industrial safety standards, protecting workers, equipment, and the environment through redundant safety measures and fail-safe designs.",
-        "Arc flash analysis and mitigation includes detailed studies, protective equipment recommendations, and system modifications to reduce arc flash hazards and ensure worker safety during maintenance operations.",
-        "Grounding and bonding systems provide effective fault current paths and protection against electrical hazards, ensuring safe operation of industrial equipment and compliance with safety codes.",
-        "Emergency power systems and life safety systems ensure continued operation of critical safety equipment during power outages, including emergency lighting, ventilation, and communication systems.",
-        "Environmental monitoring and control systems track air quality, temperature, humidity, and other environmental parameters to maintain safe working conditions and regulatory compliance.",
-        "Regular safety audits and compliance assessments ensure ongoing adherence to evolving safety standards and regulations, with recommendations for improvements and updates as needed."
-      ]
-    },
-    {
-      id: 5,
-      title: "Process Optimization Technology",
-      icon: <FiTool className="h-8 w-8" />,
-      paragraphs: [
-        "Advanced process optimization technologies use data analytics, machine learning, and real-time control to maximize production efficiency, reduce waste, and improve product quality.",
-        "Real-time process monitoring collects and analyzes thousands of data points per second to identify optimization opportunities and automatically adjust process parameters for optimal performance.",
-        "Energy management systems optimize power consumption across industrial processes, implementing demand response strategies and load scheduling to minimize energy costs while maintaining production targets.",
-        "Quality control automation uses advanced sensors, vision systems, and statistical process control to ensure consistent product quality and reduce defect rates throughout the manufacturing process.",
-        "Predictive analytics identify patterns in process data to forecast equipment performance, predict maintenance needs, and optimize production schedules for maximum efficiency and minimum downtime.",
-        "Continuous improvement platforms provide tools for ongoing process optimization, including performance tracking, root cause analysis, and implementation of best practices across multiple production lines."
-      ]
-    }
+ 
   ];
 
   const imageGallery = [
     {
-      title: "Industrial Control Room",
-      description: "State-of-the-art control room featuring advanced monitoring systems and automation controls for comprehensive industrial process management and optimization.",
-      image: "/industrial-1.jpg"
+      title: "EASY-3S-UPS",
+      description: "Power Backup for Industrial Load",
+      image: "https://msplgroup.com/assets/img/is1.png"
     },
     {
-      title: "Power Distribution Center",
-      description: "High-capacity industrial power distribution facility with redundant systems and advanced protection mechanisms for reliable power delivery.",
-      image: "/industrial-2.jpg"
+      title: "GALAXY VM",
+      description: "Power Backup for Industrial Load",
+      image: "https://msplgroup.com/assets/img/is3.png"
     },
     {
-      title: "Automated Manufacturing Line",
-      description: "Fully automated production line with integrated control systems, quality monitoring, and predictive maintenance capabilities.",
-      image: "/industrial-3.jpg"
+      title: "GALAXY VX ",
+      description: "Power Backup for Industrial Load",
+      image: "https://msplgroup.com/assets/img/is4.png"
     },
-    {
-      title: "Safety Systems Integration",
-      description: "Comprehensive industrial safety systems including emergency shutdown, fire protection, and environmental monitoring for worker protection.",
-      image: "/industrial-4.jpg"
-    },
-    {
-      title: "Process Optimization Center",
-      description: "Advanced analytics and optimization center that maximizes industrial efficiency through real-time monitoring and intelligent control systems.",
-      image: "/industrial-5.jpg"
-    }
+  
   ];
 
   return (
@@ -113,13 +64,13 @@ export default function IndustrialSolutions() {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 ">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Powering Industrial Excellence</h2>
+          <div className="text-center max-w-7xl mx-auto mb-16">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Product and the solutions we can provide</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our industrial solutions provide robust, reliable, and efficient power systems designed to meet the demanding requirements of heavy industrial applications while ensuring safety and compliance.
+              Industrial power solutions are customized electrical systems and equipment designed to meet the specific power needs of industrial facilities. These solutions are built to handle the demanding power requirements, tough operating conditions, and crucial reliability needs of industries like manufacturing plants, refineries, data centers, utilities, mining operations, and more.
             </p>
           </div>
 
@@ -143,11 +94,11 @@ export default function IndustrialSolutions() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
-                    <img 
-                      src={`/industrial-section-${section.id}.jpg`}
+                  <div className="bg-gray-200  h-120 flex items-center justify-center">
+                    <img
+                      src={section.section}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover "
                     />
                   </div>
                 </div>
@@ -162,7 +113,7 @@ export default function IndustrialSolutions() {
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
                   <div className="h-64 bg-gray-200">
-                    <img 
+                    <img
                       src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover"

@@ -154,7 +154,7 @@ const Headers = () => {
                         
                         {/* Solutions Dropdown Menu */}
                         {isSolutionsOpen && (
-                            <div className="absolute top-full -left-140 mt-2 w-[1200px] bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+                            <div className="absolute top-full -left-140  w-[1200px] bg-white border border-gray-200 rounded-lg shadow-lg z-50">
                                 <div className="p-6">
                                     <h3 className="text-lg font-semibold text-gray-800 mb-4">SOLUTION CATEGORIES</h3>
                                     <div className="grid grid-cols-4 gap-6">

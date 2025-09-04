@@ -28,7 +28,7 @@ export default function HeroSlider() {
           }`}
         >
           <video
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0  bg-gradient-to-r from-gray-900/90 to-gray-700/60 w-full h-full object-cover"
             src={slide.video}
             autoPlay
             muted

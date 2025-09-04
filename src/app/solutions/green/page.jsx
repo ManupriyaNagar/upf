@@ -6,92 +6,30 @@ export default function GreenSolutions() {
   const sections = [
     {
       id: 1,
-      title: "Solar Power Integration",
+      title: "Green Solutions by Upflair Technology",
       icon: <FiSun className="h-8 w-8" />,
+      img: "https://images.unsplash.com/photo-1670519808728-335b1eb2ef52?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       paragraphs: [
-        "Comprehensive solar power solutions that seamlessly integrate with existing electrical infrastructure to provide clean, renewable energy while reducing dependence on traditional utility power sources.",
-        "Advanced photovoltaic system design optimizes solar panel placement, inverter selection, and electrical configuration to maximize energy production and return on investment.",
-        "Grid-tie capabilities with net metering allow excess solar energy to be fed back into the utility grid, providing additional revenue streams and improving economic benefits.",
-        "Battery backup integration provides energy storage for periods when solar production is insufficient, ensuring continuous power availability while maximizing renewable energy utilization.",
-        "Smart monitoring and control systems track solar production, energy consumption, and system performance in real-time, providing detailed analytics to optimize system operation."
+        "Rooftop solar power is one of the most efficient ways to harness clean and renewable energy. By installing solar panels on rooftops, sunlight is captured and converted into electricity that can be used to power homes, offices, and businesses. This not only ensures sustainable energy production but also significantly reduces monthly electricity bills. With a lifespan of 25 to 30 years, solar panels are durable, require minimal maintenance, and provide long-term reliability..",
+        "On-grid solar power systems offer an intelligent and cost-effective way to meet energy needs while staying connected to the local utility grid. When excess energy is produced, it is sent back to the grid, earning you credits through net metering. During times when additional power is required, electricity can be drawn seamlessly from the grid, ensuring uninterrupted supply. This makes on-grid systems highly reliable while also helping users save on energy costs and reduce their carbon footprint",
+        
       ]
     },
-    {
-      id: 2,
-      title: "Energy Storage Solutions",
-      icon: <FiBattery className="h-8 w-8" />,
-      paragraphs: [
-        "Advanced battery energy storage systems provide reliable backup power, peak demand management, and integration with renewable energy sources to optimize energy costs.",
-        "Lithium-ion battery technology offers high energy density, long cycle life, and fast charging capabilities for both residential and commercial energy storage applications.",
-        "Intelligent battery management systems monitor cell health, optimize charging cycles, and protect against overcharge conditions to maximize battery life and ensure safe operation.",
-        "Peak shaving capabilities reduce demand charges by storing energy during low-cost periods and discharging during peak demand times, resulting in significant cost savings.",
-        "Seamless integration with solar power systems stores excess renewable energy for use during periods of low production, maximizing the value of your renewable energy investment."
-      ]
-    },
-    {
-      id: 3,
-      title: "Green Building Certifications",
-    //   icon: <FiLeaf className="h-8 w-8" />,
-      paragraphs: [
-        "Support for achieving green building certifications including LEED, ENERGY STAR, and BREEAM through comprehensive energy efficiency improvements and sustainable design practices.",
-        "Energy auditing and assessment services identify opportunities for efficiency improvements and provide detailed recommendations for achieving certification requirements.",
-        "Documentation and reporting services ensure all certification requirements are met and properly documented, streamlining the certification process and ensuring successful outcomes.",
-        "Ongoing monitoring and verification services track building performance against certification standards, ensuring continued compliance and optimal energy performance.",
-        "Integration with building management systems provides automated reporting and analytics to support certification maintenance and continuous improvement initiatives."
-      ]
-    },
-    {
-      id: 4,
-      title: "Carbon Footprint Reduction",
-      icon: <FiTrendingUp className="h-8 w-8" />,
-      paragraphs: [
-        "Comprehensive carbon footprint analysis and reduction strategies help organizations minimize their environmental impact while achieving cost savings through improved efficiency.",
-        "Renewable energy integration reduces reliance on fossil fuels and significantly decreases greenhouse gas emissions from building operations and energy consumption.",
-        "Energy efficiency improvements including LED lighting, smart controls, and HVAC optimization reduce overall energy consumption and associated carbon emissions.",
-        "Carbon offset programs and renewable energy credits provide additional options for achieving carbon neutrality and meeting sustainability goals and commitments.",
-        "Regular monitoring and reporting track progress toward carbon reduction goals, providing transparency and accountability for sustainability initiatives and stakeholder reporting."
-      ]
-    },
-    {
-      id: 5,
-      title: "Sustainable Technology Implementation",
-      icon: <FiRefreshCw className="h-8 w-8" />,
-      paragraphs: [
-        "Implementation of cutting-edge sustainable technologies including smart grids, energy management systems, and IoT devices to optimize energy use and reduce waste.",
-        "Electric vehicle charging infrastructure supports the transition to sustainable transportation while providing new revenue opportunities for commercial properties.",
-        "Waste heat recovery systems capture and repurpose waste heat from industrial processes and building systems to improve overall energy efficiency.",
-        "Water conservation technologies including smart irrigation and leak detection systems reduce water consumption and support comprehensive sustainability goals.",
-        "Lifecycle assessment and sustainable material selection ensure that all system components and installations support long-term environmental objectives."
-      ]
-    }
+    
   ];
 
   const imageGallery = [
     {
-      title: "Solar Installation",
-      description: "Professional solar panel installation with optimal positioning for maximum energy production and integration with existing electrical systems.",
-      image: "/green-1.jpg"
+      title: "SROOF-TOP",
+      description: "Solar Power Genration",
+      image: "https://msplgroup.com/assets/img/recent-projects-7.jpg"
     },
     {
-      title: "Battery Storage System",
-      description: "Advanced lithium-ion battery storage system providing backup power and peak demand management for residential and commercial applications.",
-      image: "/green-2.jpg"
+      title: "ON-GRID",
+      description: "Solar Power Genration",
+      image: "https://msplgroup.com/assets/img/recent-projects-8.jpg"
     },
-    {
-      title: "Green Building Monitoring",
-      description: "Comprehensive building energy monitoring system tracking efficiency metrics and supporting green building certification requirements.",
-      image: "/green-3.jpg"
-    },
-    {
-      title: "EV Charging Station",
-      description: "Electric vehicle charging infrastructure supporting sustainable transportation and providing additional revenue opportunities.",
-      image: "/green-4.jpg"
-    },
-    {
-      title: "Smart Energy Dashboard",
-      description: "Real-time energy monitoring and analytics dashboard providing insights into renewable energy production and consumption patterns.",
-      image: "/green-5.jpg"
-    }
+    
   ];
       
 
@@ -113,10 +51,10 @@ export default function GreenSolutions() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Building a Sustainable Future</h2>
+          <div className="text-center max-w-7xl mx-auto mb-16">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Product and the solutions we can provide</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our green energy solutions combine renewable technologies with intelligent systems to create sustainable, cost-effective, and environmentally responsible energy infrastructure.
+              Green Solutions are essential for all businesses as they involve environmentally friendly practices and initiatives aimed at reducing the negative impact of business operations on the environment. Implementing these solutions not only helps protect the planet but also brings cost savings and enhances brand reputation.
             </p>
           </div>
 
@@ -140,11 +78,11 @@ export default function GreenSolutions() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
+                  <div className="bg-gray-200  h-96 flex items-center justify-center">
                     <img 
-                      src={`/green-section-${section.id}.jpg`}
+                      src={section.img}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover "
                     />
                   </div>
                 </div>
@@ -153,9 +91,9 @@ export default function GreenSolutions() {
           </div>
 
           {/* Image Gallery Section */}
-          <div className="mb-16">
+          <div className="mb-16 items-center justify-center ">
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Green Solution Gallery</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
                   <div className="h-64 bg-gray-200">

@@ -120,7 +120,7 @@ export default function SolutionsPage() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction Section */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-7xl mx-auto mb-16">
             <h2 className="text-3xl font-semibold text-gray-900 mb-6">Empowering Businesses with Innovative Solutions</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
               We provide comprehensive solutions designed to meet the unique energy and power needs of various industries and applications. Our solutions combine cutting-edge technology with proven expertise to deliver reliable, efficient, and scalable systems that power your operations and growth.
