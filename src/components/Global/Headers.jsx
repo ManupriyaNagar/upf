@@ -218,12 +218,13 @@ const Headers = () => {
 
                 {/* Right Connect Now Button */}
                 <div>
-                    <button
-                        onClick={handleConnectNow}
-                        className="bg-[#0a1f55] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#132b74] transition flex items-center gap-2 cursor-pointer"
-                    >
-                        Connect Now →
-                    </button>
+                    <Link href="/contact">
+                        <button
+                            className="bg-[#0a1f55] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#132b74] transition flex items-center gap-2 cursor-pointer"
+                        >
+                            Connect Now →
+                        </button>
+                    </Link>
                 </div>
             </header>
         </section>

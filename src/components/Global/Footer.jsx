@@ -60,14 +60,19 @@ const Footer = () => {
               Official Info
             </h3>
             <div className="space-y-4">
-              <div className="flex items-center gap-3 justify-center md:justify-start">
+              <a
+                href="https://www.google.com/maps/place/522%2Fa,+19th+Main+Rd,+Sector+3,+HSR+Layout,+Bengaluru,+Karnataka+560102/@12.9050462,77.6414794,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1499b113353d:0x3437676c18416969!8m2!3d12.905041!4d77.6440543!16s%2Fg%2F11snpzzg0y?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-blue-400"
+              >
                 <MapPin className="h-7 w-10 text-blue-400" />
                 <span>
                   Ground floor, Srishyalaya No.523 A, 19th Main Service Road, HSR Layout Sector III,
                   <br />
                   Bengaluru, Bengaluru Urban, Karnataka, 560102
                 </span>
-              </div>
+              </a>
               <a
                 href="tel:+919035300045"
                 className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-blue-400"

@@ -28,8 +28,9 @@ export default function Contact() {
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Our Location</h3>
-              <p className="text-gray-600 mb-2">123 Business Avenue</p>
-              <p className="text-gray-600">New York, NY 10001</p>
+              <p className="text-gray-600 mb-2">Ground floor, Srishyalaya No.523 A, 19th Main Service Road, HSR Layout Sector III,
+Bengaluru, Bengaluru Urban, Karnataka, 560102</p>
+
             </div>
 
             {/* Phone Card */}
@@ -38,7 +39,7 @@ export default function Contact() {
                 <PhoneIcon className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Call Us</h3>
-              <p className="text-gray-600 mb-2">+1 (709) 238-6035</p>
+              <p className="text-gray-600 mb-2">+91 90353 00045</p>
               <p className="text-gray-600">Mon-Fri 9am-6pm EST</p>
             </div>
 
@@ -48,7 +49,7 @@ export default function Contact() {
                 <Mail className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Email Us</h3>
-              <p className="text-gray-600 mb-2">support@upflair.com</p>
+              <p className="text-gray-600 mb-2">sales@upflair.com</p>
               <p className="text-gray-600">Response within 24 hours</p>
             </div>
 
@@ -132,19 +133,29 @@ export default function Contact() {
             </div>
 
             {/* Map Section */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
-              <div className="h-[480px] w-full relative">
-                <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-700 mx-auto">
-                      <MapPin className="h-8 w-8" />
-                    </div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Our Office Location</h3>
-                    <p className="text-gray-600">123 Business Avenue, New York, NY 10001</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+         <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+  <div className="h-[700px] w-full relative">
+    {/* Clickable Map */}
+    <a
+      href="https://www.google.com/maps/place/522%2Fa,+19th+Main+Rd,+Sector+3,+HSR+Layout,+Bengaluru,+Karnataka+560102/@12.905041,77.6440543,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1499b113353d:0x3437676c18416969!8m2!3d12.905041!4d77.6440543!16s%2Fg%2F11snpzzg0y?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block w-full h-full"
+    >
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.881217812487!2d77.6440543!3d12.905041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1499b113353d%3A0x3437676c18416969!2s522%2Fa%2C%2019th%20Main%20Rd%2C%20Sector%203%2C%20HSR%20Layout%2C%20Bengaluru%2C%20Karnataka%20560102!5e0!3m2!1sen!2sin!4v1693824376281!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        className="w-full h-full"
+      ></iframe>
+    </a>
+  </div>
+</div>
+
           </div>
 
           {/* FAQ Section */}

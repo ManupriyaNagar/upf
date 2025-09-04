@@ -6,93 +6,25 @@ export default function ElectricalTurnkeySolutions() {
   const sections = [
     {
       id: 1,
-      title: "End-to-End Project Management",
+      title: "Our Service",
       icon: <FiClipboard className="h-8 w-8" />,
+      section:"https://msplgroup.com/assets/img/services-1.jpg",
       paragraphs: [
-        "Comprehensive project management services from initial concept through final commissioning, ensuring seamless execution of electrical projects with single-point responsibility.",
-        "Dedicated project teams coordinate all aspects including design, procurement, installation, testing, and commissioning to deliver projects on time and within budget.",
-        "Risk management and quality assurance processes identify and mitigate potential issues before they impact project timelines or performance.",
-        "Regular progress reporting and stakeholder communication ensure transparency and alignment throughout the project lifecycle.",
-        "Change management procedures handle modifications efficiently while maintaining project integrity and controlling costs."
+        "We're more than just electrical services; we also provide comprehensive solutions including computer networking, fire alarm systems, door access control, CCTV control, and PA System including Building Management Systems (BMS). We have vast experience in mechanical & instrumentation work, particularly in the water management segment, including wireless telemetry based centralized SCADA systems for monitoring & controlling different locations.",
       ]
     },
     {
       id: 2,
-      title: "Electrical System Design",
+      title: "Need Our Solution?",
       icon: <FiSettings className="h-8 w-8" />,
+      section:"https://msplgroup.com/assets/img/services-2.jpg",
       paragraphs: [
-        "Custom electrical system design services create optimal solutions tailored to specific operational requirements and regulatory compliance needs.",
-        "Advanced modeling and simulation tools validate designs before implementation, ensuring optimal performance and reliability.",
-        "Energy efficiency optimization incorporates latest technologies and best practices to minimize operational costs.",
-        "Code compliance and safety analysis ensure all designs meet applicable standards and regulations.",
-        "Future expansion planning incorporates scalability and flexibility for evolving business needs."
+        "Our commitment to excellence, backed by a robust product service network, ensures we are always ready to meet our client's routine maintenance and support needs. At Upflair, we strive to deliver exceptional electrical solutions that power your business efficiently. Welcome to our world of secure, sustainable, and effective electrical solutions."
       ]
     },
-    {
-      id: 3,
-      title: "Installation and Commissioning",
-      icon: <FiZap className="h-8 w-8" />,
-      paragraphs: [
-        "Professional installation services by certified technicians ensure proper implementation of electrical systems according to design specifications.",
-        "Comprehensive testing and commissioning procedures verify system performance and safety before final acceptance.",
-        "Quality control inspections at every phase ensure workmanship meets the highest industry standards.",
-        "Documentation and as-built drawings provide complete system records for future maintenance and modifications.",
-        "Training and handover procedures ensure client personnel understand system operation and maintenance requirements."
-      ]
-    },
-    {
-      id: 4,
-      title: "Maintenance and Support",
-      icon: <FiUsers className="h-8 w-8" />,
-      paragraphs: [
-        "Ongoing maintenance and support services ensure continued optimal performance and reliability of electrical systems.",
-        "Preventive maintenance programs minimize unexpected failures and extend equipment life through regular inspections and servicing.",
-        "24/7 emergency response capabilities provide rapid assistance for critical issues that could impact operations.",
-        "Spare parts management and inventory services ensure quick access to replacement components when needed.",
-        "Performance monitoring and optimization services identify opportunities for efficiency improvements and upgrades."
-      ]
-    },
-    {
-      id: 5,
-      title: "Compliance and Safety Management",
-      icon: <FiCheckCircle className="h-8 w-8" />,
-      paragraphs: [
-        "Comprehensive safety management ensures all work complies with applicable codes, standards, and regulatory requirements.",
-        "Regular safety training and certification programs keep all personnel current with latest safety practices and requirements.",
-        "Documentation and reporting systems track compliance activities and provide audit trails for regulatory inspections.",
-        "Incident management and investigation procedures ensure rapid response to safety events and continuous improvement.",
-        "Insurance and bonding coverage provide financial protection and demonstrate commitment to professional service delivery."
-      ]
-    }
   ];
 
-  const imageGallery = [
-    {
-      title: "Project Planning Center",
-      description: "Comprehensive project management facility coordinating all aspects of electrical turnkey projects from design through commissioning.",
-      image: "/electrical-1.jpg"
-    },
-    {
-      title: "Electrical Installation",
-      description: "Professional electrical installation by certified technicians using advanced tools and techniques for optimal results.",
-      image: "/electrical-2.jpg"
-    },
-    {
-      title: "System Testing",
-      description: "Comprehensive testing and commissioning procedures ensuring system performance and safety before final acceptance.",
-      image: "/electrical-3.jpg"
-    },
-    {
-      title: "Control Panel Assembly",
-      description: "Custom control panel fabrication and assembly meeting exact specifications and industry standards.",
-      image: "/electrical-4.jpg"
-    },
-    {
-      title: "Maintenance Services",
-      description: "Ongoing maintenance and support services ensuring continued optimal performance and reliability of electrical systems.",
-      image: "/electrical-5.jpg"
-    }
-  ];
+
 
   return (
     <div className="min-h-screen">
@@ -111,10 +43,10 @@ export default function ElectricalTurnkeySolutions() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-7xl mx-auto mb-16">
             <h2 className="text-3xl font-semibold text-gray-900 mb-6">Complete Project Solutions</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our turnkey electrical contracts provide complete project solutions from design through commissioning, offering single-point responsibility for successful project delivery.
+              We are a leading MEP contractor firm, based in Ahmedabad, specializing in Electro-Mechanical & Instrumentation projects. With over three years of expertise in executing all types of Electro-Mechanical contracting work, our services span the entire gamut, right from low voltage (LV) systems to 11 KVA high tension (HT), and from Extra Low Voltage (ELV) installations to 11 KVA switch yards.
             </p>
           </div>
 
@@ -140,7 +72,7 @@ export default function ElectricalTurnkeySolutions() {
                 <div className="flex-1">
                   <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
                     <img 
-                      src={`/electrical-section-${section.id}.jpg`}
+                      src={section.section}
                       alt={section.title}
                       className="w-full h-full object-cover rounded-2xl"
                     />
@@ -150,27 +82,7 @@ export default function ElectricalTurnkeySolutions() {
             ))}
           </div>
 
-          {/* Image Gallery Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Turnkey Solution Gallery</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {imageGallery.map((item, index) => (
-                <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-                  <div className="h-64 bg-gray-200">
-                    <img 
-                      src={item.image}
-                      alt={item.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+
 
           {/* CTA Section */}
           <div className="bg-gradient-to-r from-[#0a1f55] to-[#132b74] rounded-2xl p-8 md:p-12 text-white">
