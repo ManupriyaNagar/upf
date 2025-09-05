@@ -6,99 +6,43 @@ export default function PowerQualityAnalysis() {
   const sections = [
     {
       id: 1,
-      title: "Electrical System Assessment",
+      title: "Upflair’s Maintenance Plans Offer:",
       icon: <FiZap className="h-8 w-8" />,
       paragraphs: [
-        "Comprehensive electrical system assessment forms the foundation of power quality analysis, involving detailed examination of voltage levels, current flows, and power factor measurements across all phases of your electrical infrastructure.",
-        "Advanced power analyzers and monitoring equipment capture real-time data on voltage fluctuations, harmonic distortion, and transient events that can impact sensitive equipment performance and operational efficiency.",
-        "Systematic evaluation of electrical panels, distribution systems, and load connections identifies potential weak points and areas requiring immediate attention to prevent costly equipment failures.",
-        "Load analysis determines the actual power consumption patterns compared to design specifications, revealing opportunities for optimization and capacity planning for future expansion.",
-        "Documentation of all findings provides a baseline for ongoing monitoring and helps establish maintenance schedules that prevent problems before they occur."
+        "At Upflair Technologies, we provide flexible maintenance plans designed to minimize risks and control costs. Our plans include regular preventive maintenance visits, with the freedom to choose the response time that best fits your business needs.",
+        "To ensure maximum reliability of your UPS systems, our service plans focus on early detection of critical component wear and degradation. This proactive approach allows us to perform timely repairs or replacements before failures occur, keeping your operations uninterrupted.",
+        "Additionally, with our robust inventory of spare parts, immediate spares availability is guaranteed—ensuring faster resolutions and greater peace of mind for your business.",
       ]
     },
-    {
-      id: 2,
-      title: "Harmonic Analysis and Mitigation",
-      icon: <FiActivity className="h-8 w-8" />,
-      paragraphs: [
-        "Harmonic distortion analysis identifies non-linear loads that introduce unwanted frequencies into the electrical system, causing overheating, equipment malfunction, and reduced power factor.",
-        "Spectrum analysis reveals the specific harmonic frequencies present in your system, allowing for targeted mitigation strategies that address the root causes of power quality issues.",
-        "Harmonic filters and power conditioning equipment recommendations are based on detailed analysis of your specific harmonic profile and operational requirements.",
-        "Total harmonic distortion (THD) measurements ensure compliance with IEEE 519 standards and help prevent penalties from utility companies for poor power quality.",
-        "Ongoing harmonic monitoring provides early warning of changes in system behavior that could indicate developing problems with equipment or electrical infrastructure."
-      ]
-    },
-    {
-      id: 3,
-      title: "Voltage Regulation and Stability",
-      icon: <FiSettings className="h-8 w-8" />,
-      paragraphs: [
-        "Voltage stability analysis ensures that all electrical equipment receives the proper voltage levels required for optimal performance and longevity, preventing premature failure and efficiency losses.",
-        "Automatic voltage regulators (AVR) and tap-changing transformers are evaluated for proper operation and settings to maintain consistent voltage across varying load conditions.",
-        "Voltage sag and swell analysis identifies external factors and internal load changes that cause voltage disturbances, enabling proactive measures to protect sensitive equipment.",
-        "Power factor correction systems are assessed for effectiveness in maintaining optimal power factor and reducing reactive power charges from utility companies.",
-        "Voltage unbalance measurements ensure equal loading across all three phases, preventing motor overheating and reducing energy consumption through balanced operation."
-      ]
-    },
-    {
-      id: 4,
-      title: "Transient and Surge Protection",
-      icon: <FiShield className="h-8 w-8" />,
-      paragraphs: [
-        "Transient analysis captures brief but potentially damaging voltage spikes and surges that can destroy sensitive electronic equipment and disrupt operations.",
-        "Lightning protection system evaluation ensures adequate grounding and surge suppression to protect against external electrical disturbances and weather-related events.",
-        "Surge protective device (SPD) assessment verifies proper installation and operation of protective equipment at service entrance, panel, and point-of-use locations.",
-        "Switching transient analysis identifies internal sources of voltage spikes from motor starting, capacitor switching, and other operational events that require mitigation.",
-        "Coordinated protection schemes ensure that surge protective devices work together effectively without interfering with normal protective relay operation."
-      ]
-    },
-    {
-      id: 5,
-      title: "Power Quality Monitoring and Reporting",
-      icon: <FiBarChart className="h-8 w-8" />,
-      paragraphs: [
-        "Continuous power quality monitoring provides ongoing assessment of electrical system performance, capturing intermittent problems that might be missed during periodic testing.",
-        "Automated data logging and analysis systems track power quality parameters over extended periods, revealing patterns and trends that indicate developing issues.",
-        "Customized reporting provides clear documentation of power quality compliance, equipment performance, and recommendations for system improvements.",
-        "Alarm and notification systems alert facility managers immediately when power quality parameters exceed acceptable limits, enabling rapid response to prevent equipment damage.",
-        "Trend analysis helps predict future power quality issues and plan preventive maintenance activities that minimize downtime and extend equipment life."
-      ]
-    }
+   
+   
+   
+   
   ];
 
   const imageGallery = [
     {
-      title: "Power Quality Analyzer",
-      description: "Advanced three-phase power quality analyzer capturing real-time data on voltage, current, harmonics, and transient events for comprehensive electrical system assessment.",
-      image: "/power-quality-1.jpg"
+      title: "Reliability and Expertise",
+      description: "An authorized service provider has trained professionals who are well-versed with UPS systems. These professionals have gone through rigorous training on the specific brand of UPS systems and know the ins and outs of the equipment. This ensures that you are getting service from highly competent and reliable individuals.",
+      image: "https://media.istockphoto.com/id/543351810/photo/your-health-in-our-hands.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y3tT0n0utc2Ocx_QwFXW010JgYFtBVc_BLujK5XKeyU="
     },
     {
-      title: "Harmonic Analysis Display",
-      description: "Detailed harmonic spectrum analysis showing frequency components and total harmonic distortion levels for identifying and mitigating power quality issues.",
-      image: "/power-quality-2.jpg"
+      title: "Regular Scheduled Maintenance",
+      description: "By choosing a maintenance contract, you ensure that your UPS system undergoes regular checks. This allows for the early detection of issues, ensuring minimal disruptions and preventing catastrophic failures, thus ensuring your UPS system operates optimally and extends its lifespan.",
+      image: "https://media.istockphoto.com/id/2228557596/photo/female-engineer-inspecting-control-panel-and-taking-notes-for-safety-and-maintenance-at-power.webp?a=1&b=1&s=612x612&w=0&k=20&c=xG3mMvm2USNep2DbR4sxTig89PwKiC3nDmV9oegyY2A="
     },
     {
-      title: "Voltage Monitoring System",
-      description: "Continuous voltage monitoring equipment tracking voltage levels, sags, swells, and interruptions to ensure stable power delivery to critical equipment.",
-      image: "/power-quality-3.jpg"
-    },
-    {
-      title: "Power Factor Correction",
-      description: "Automated power factor correction system maintaining optimal power factor and reducing reactive power charges while improving system efficiency.",
-      image: "/power-quality-4.jpg"
-    },
-    {
-      title: "Data Analysis Dashboard",
-      description: "Comprehensive power quality monitoring dashboard providing real-time data visualization and historical trend analysis for informed decision making.",
-      image: "/power-quality-5.jpg"
+      title: "Compliance and Safety",
+      description: "Authorized service providers are knowledgeable about the industry standards and safety protocols for UPS systems. This means that all servicing and maintenance done are compliant with the necessary regulations, ensuring not just optimal performance but also the safety of your staff and premises.",
+      image: "https://media.istockphoto.com/id/1251377620/photo/cyber-security-systems-for-business-network.webp?a=1&b=1&s=612x612&w=0&k=20&c=-1L-_fH6z7Q_I8mCjnNlTVHZKi4l-MyzVaq1mi3EkPk="
     }
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[400px] bg-[url('/power-quality-hero.jpg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-700/60 flex items-center justify-center">
+      <section className="relative h-[400px] bg-[url('/92.png')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Power Quality Analysis</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">
@@ -111,10 +55,11 @@ export default function PowerQualityAnalysis() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-7xl mx-auto mb-16">
             <h2 className="text-3xl font-semibold text-gray-900 mb-6">Ensuring Optimal Power Quality</h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our power quality analysis services provide comprehensive assessment and monitoring of electrical systems to ensure optimal performance, prevent equipment damage, and maintain operational efficiency.
+      
+We at upflair group provides Comprehensive UPS maintenance contracts designed to your specific power requirements, ensuring reliable UPS service, annual maintenance, expert guidance on how to maintain your UPS, and a thorough UPS maintenance checklist.
             </p>
           </div>
 

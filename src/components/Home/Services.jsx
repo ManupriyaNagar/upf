@@ -6,7 +6,7 @@ const Services = () => {
       id: 1,
       image: '/ups.jpeg',
       heading: 'UPS Maintenance Contracts',
-      paragraph: "MSPL offers tailored UPS maintenance contracts with reliable service, annual checks, expert guidance, and complete care."
+      paragraph: "Upflair offers tailored UPS maintenance contracts with reliable service, annual checks, expert guidance, and complete care."
     },
     {
       id: 2,

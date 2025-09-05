@@ -1,108 +1,67 @@
 "use client";
 import React from "react";
 import { FiPlug, FiShield, FiAlertCircle, FiCheckSquare, FiTool } from "react-icons/fi";
+import { FaPlug} from "react-icons/fa";
 
 export default function SocketTesting() {
   const sections = [
     {
       id: 1,
-      title: "Electrical Socket Safety Testing",
-      icon: <FiPlug className="h-8 w-8" />,
+      title: "UPS Relocation Services",
+      icon: <FaPlug className="h-8 w-8" />,
+      img:"https://plus.unsplash.com/premium_photo-1664300914931-76c0f99a96b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFVQUyUyMFJlbG9jYXRpb24lMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
       paragraphs: [
-        "Comprehensive electrical socket testing ensures that all power outlets provide safe and reliable electrical connections while meeting strict safety standards and regulatory requirements for residential and commercial installations.",
-        "Visual inspection and physical examination identify obvious defects such as damaged faceplates, loose mounting, burned contacts, or improper installation that could create safety hazards or operational problems.",
-        "Electrical continuity testing verifies proper connections between socket terminals and building wiring systems, ensuring that power is delivered safely and efficiently to connected devices and equipment.",
-        "Insulation resistance measurements confirm that electrical insulation between conductors and ground systems meets minimum safety requirements and will prevent dangerous electrical leakage or shock hazards.",
-        "Load testing validates that sockets can safely handle rated current without overheating, voltage drop, or other performance issues that could damage connected equipment or create fire hazards."
+        "At Upflair Technologies, we specialize in providing complete UPS relocation solutions whether you need to move your system to another room within the same building or to an entirely new site.",
+        "The relocation of a UPS is a critical process that involves decommissioning, safe transportation, and re-commissioning of the UPS, along with its associated batteries and electrical switchgear. Our team of trained engineers, supported by an experienced logistics network, ensures that every step is carried out safely, efficiently, and with minimal disruption to your operations.",
+        "Once the equipment reaches the new location, our experts handle the re-commissioning process, making sure the system is restored to full functionality and reliability. If your project requires additional electrical work, we collaborate with trusted electrical contractor partners to provide a seamless, end-to-end service.",
+        "With Upflair’s UPS Relocation Service, you can rely on a smooth, secure, and professionally managed transition of your power systems.",
+      
       ]
     },
     {
       id: 2,
-      title: "RCD and RCBO Functionality Testing",
+      title: "UPS Disposal Services",
       icon: <FiShield className="h-8 w-8" />,
+      img:"https://plus.unsplash.com/premium_photo-1661964043731-5cac3cc7d245?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VVBTJTIwRGlzcG9zYWwlMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
       paragraphs: [
-        "Residual Current Device (RCD) testing ensures that protective devices respond correctly to earth leakage currents, providing essential protection against electrocution and electrical fires.",
-        "Trip time measurements verify that RCDs operate within specified time limits when dangerous earth leakage occurs, ensuring rapid disconnection of power to prevent injury or equipment damage.",
-        "Sensitivity testing confirms that RCDs trip at the correct current levels and do not cause nuisance tripping during normal operation of electrical equipment with minor leakage currents.",
-        "RCBO (Residual Current Breaker with Overload protection) testing combines earth leakage and overcurrent protection verification to ensure complete circuit protection functionality.",
-        "Regular testing schedules ensure that protective devices continue to function correctly over time and provide reliable protection against electrical hazards throughout their service life."
+        "At Upflair Technologies, we provide safe and reliable UPS disposal services for a wide range of UPS brands. Whether you are upgrading your power systems or decommissioning existing units, our team ensures the process is handled professionally and in compliance with all regulations.",
+        "Our trained engineers carefully decommission the UPS and its associated batteries, making sure every step is carried out with safety as the top priority. Once decommissioned, our experienced logistics team securely packs and palletizes the equipment for transportation and proper disposal.",
+        "We follow all relevant environmental and safety guidelines, including the Special Waste Regulations 1996, to ensure that the disposal process is environmentally responsible and fully compliant.",
+        "With Upflair’s UPS Disposal Service, you can rest assured that your old UPS systems and batteries will be managed safely, efficiently, and in line with industry standards.",
       ]
     },
-    {
-      id: 3,
-      title: "Polarity and Wiring Verification",
-      icon: <FiCheckSquare className="h-8 w-8" />,
-      paragraphs: [
-        "Polarity testing ensures that electrical sockets are correctly wired with proper phase, neutral, and earth connections, preventing equipment damage and safety hazards from incorrect polarity.",
-        "Phase sequence testing in three-phase installations verifies correct rotation and phase relationships to ensure proper operation of motors and other three-phase equipment.",
-        "Earth continuity testing confirms that protective earth connections provide reliable paths for fault currents and maintain safe touch voltages during equipment failures.",
-        "Socket outlet testing includes verification of proper pin assignments and contact resistance to ensure reliable connections and prevent arcing or overheating at connection points.",
-        "Documentation of wiring verification provides records required for electrical inspections, insurance compliance, and maintenance planning to support ongoing electrical safety programs."
-      ]
-    },
-    {
-      id: 4,
-      title: "Power Quality Assessment",
-      icon: <FiAlertCircle className="h-8 w-8" />,
-      paragraphs: [
-        "Power quality testing at socket outlets identifies voltage variations, harmonic distortion, and other electrical disturbances that could affect the performance of sensitive electronic equipment.",
-        "Voltage measurement and analysis ensures that supply voltages remain within acceptable limits for connected equipment and comply with electrical standards and utility requirements.",
-        "Frequency stability testing verifies that electrical frequency remains constant and within tolerance limits required for proper operation of clocks, motors, and frequency-sensitive equipment.",
-        "Harmonic analysis identifies distortion in electrical waveforms that could cause overheating, interference, or malfunction in electronic devices and computer equipment.",
-        "Power factor measurement helps identify inefficient electrical loads and provides data needed for power factor correction and energy efficiency improvements."
-      ]
-    },
-    {
-      id: 5,
-      title: "Maintenance and Compliance Reporting",
-      icon: <FiTool className="h-8 w-8" />,
-      paragraphs: [
-        "Comprehensive testing reports document all socket testing results, identified defects, and recommendations for corrective action to maintain electrical safety and compliance.",
-        "Regulatory compliance verification ensures that electrical installations meet current electrical codes and standards including local building codes and electrical safety requirements.",
-        "Preventive maintenance recommendations based on testing results help prevent electrical problems before they cause equipment damage, safety hazards, or operational disruptions.",
-        "Test certificates provide official documentation required for electrical inspections, insurance claims, and regulatory compliance demonstrations to authorities having jurisdiction.",
-        "Follow-up testing schedules ensure that electrical systems continue to meet safety and performance requirements throughout their operational life with appropriate maintenance intervals."
-      ]
-    }
+
+  
   ];
 
   const imageGallery = [
     {
-      title: "Socket Testing Equipment",
-      description: "Professional socket testing instruments for comprehensive electrical outlet safety and performance verification in residential and commercial installations.",
-      image: "/socket-testing-1.jpg"
+      title: "Assessment and Planning",
+      description: "At Upflair Technologies, every UPS relocation or disposal project begins with a thorough assessment and planning phase. Our experts carefully evaluate the existing setup, location, and condition of your UPS system before creating a tailored plan. This proactive approach helps minimize risks, ensures safety, and guarantees a smooth process from start to finish.",
+      image: "https://media.istockphoto.com/id/876997894/photo/best-business-concept-photo-representing-brainstorm-in-the-company.webp?a=1&b=1&s=612x612&w=0&k=20&c=pHCiXJ59tfvgOMCsdvI2HiGMpIzZO2C7igZgAYkC1Ek="
     },
     {
-      title: "RCD Testing Procedure",
-      description: "Systematic testing of Residual Current Devices to ensure proper operation and protection against earth leakage and electrocution hazards.",
-      image: "/socket-testing-2.jpg"
+      title: "Decommissioning",
+      description: "Proper decommissioning is essential for both UPS relocation and disposal. Our trained engineers follow strict safety protocols, including a controlled shutdown of the system, disconnection of all power and network connections, and neutralization of residual energy. This ensures that the UPS is fully safe for handling, transport, or disposal.",
+      image: "https://plus.unsplash.com/premium_photo-1664299377684-dfcfbc0d943f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RGVjb21taXNzaW9uaW5nfGVufDB8fDB8fHww"
     },
     {
-      title: "Polarity Verification",
-      description: "Detailed polarity and wiring verification testing to ensure correct electrical connections and prevent equipment damage from incorrect wiring.",
-      image: "/socket-testing-3.jpg"
+      title: "Packaging and Transportation",
+      description: "To protect your valuable equipment, we provide specialized packaging and secure transportation services. Using industry-approved packing materials and techniques, along with vehicles equipped for sensitive electronics, we ensure your UPS systems and batteries are moved safely and efficiently—whether to a new site or for compliant disposal.",
+      image: "https://media.istockphoto.com/id/157558600/photo/view-from-above-inside-a-busy-huge-industrial-warehouse.webp?a=1&b=1&s=612x612&w=0&k=20&c=mjR7Twg0sWuM1QvqU786H7Qw69mtHznkB_iWcH-P08k="
     },
-    {
-      title: "Power Quality Analysis",
-      description: "Advanced power quality testing at electrical outlets to identify voltage variations, harmonics, and other electrical disturbances affecting equipment performance.",
-      image: "/socket-testing-4.jpg"
-    },
-    {
-      title: "Testing Documentation",
-      description: "Comprehensive test reports and certificates documenting socket testing results, compliance status, and maintenance recommendations for electrical safety.",
-      image: "/socket-testing-5.jpg"
-    }
+  
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[400px] bg-[url('/socket-testing-hero.jpg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-yellow-900/80 to-orange-700/60 flex items-center justify-center">
+      <section className="relative h-[400px] bg-[url('/13.png')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Socket Testing</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Comprehensive electrical outlet safety and performance testing
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">UPS Relocation & Disposal</h1>
+            <p className="text-xl md:text-2xl max-w-7xl mx-auto">
+              Effortlessly handle UPS relocations and disposal with our comprehensive service, including professional assistance for seamless UPS relocation and proper disposal of UPS units and batteries, adhering to environmental regulations.
             </p>
           </div>
         </div>
@@ -138,11 +97,11 @@ export default function SocketTesting() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
+                  <div className="bg-gray-200 rounded-2xl h-120 flex items-center justify-center">
                     <img 
-                      src={`/socket-testing-section-${section.id}.jpg`}
+                      src={section.img}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover "
                     />
                   </div>
                 </div>
@@ -172,25 +131,7 @@ export default function SocketTesting() {
             </div>
           </div>
 
-          {/* CTA Section */}
-          <div className="bg-gradient-to-r from-yellow-600 to-orange-700 rounded-2xl p-8 md:p-12 text-white">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Need Socket Testing Services?</h2>
-              <p className="text-lg mb-8 text-yellow-100">
-                Contact our electrical testing experts to schedule comprehensive socket testing and ensure your electrical outlets are safe, compliant, and performing optimally.
-              </p>
-              <a
-                href="/contact"
-                className="inline-flex items-center justify-center gap-3 bg-white text-yellow-700 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                <span>Schedule Testing</span>
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M13 18L19 12L13 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
+         
         </div>
       </section>
     </div>

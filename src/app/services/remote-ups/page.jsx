@@ -6,103 +6,58 @@ export default function BatteryImpedanceTesting() {
   const sections = [
     {
       id: 1,
-      title: "Battery Health Assessment",
+      title: "How EcoStruxure IT Expert Works for UPS Monitoring",
       icon: <FiBatteryCharging className="h-8 w-8" />,
+      img:"https://images.unsplash.com/photo-1563770661132-85c7385910d3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SG93JTIwRWNvU3RydXh1cmUlMjBJVCUyMEV4cGVydCUyMFdvcmtzJTIwZm9yJTIwVVBTJTIwTW9uaXRvcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
       paragraphs: [
-        "Comprehensive battery health assessment evaluates the condition and performance of backup power systems through advanced impedance testing, voltage measurements, and capacity analysis to ensure reliable emergency power availability.",
-        "Internal resistance measurements reveal battery cell degradation and identify weak cells that could compromise the entire battery string performance during critical power outage situations.",
-        "Capacity testing determines the actual energy storage capability compared to nameplate ratings, providing accurate data for backup runtime calculations and replacement planning.",
-        "Temperature compensation ensures accurate measurements across varying environmental conditions, accounting for the significant impact of temperature on battery performance and test results.",
-        "Baseline establishment creates reference measurements for future comparison, enabling trend analysis and predictive maintenance scheduling based on actual battery condition."
+        "At Upflair Technologies, we utilize EcoStruxure IT Expert to provide intelligent, real-time monitoring of your UPS systems. This advanced platform communicates continuously with your UPS to automatically detect any errors or alarm messages.",
+        "In the event of an incident, EcoStruxure IT Expert immediately connects with our service network via email transmitting a detailed status message along with device identification information. This ensures our team receives instant alerts and can take prompt action to resolve issues before they impact your operations.",
+        "With proactive fault detection and seamless service integration, we help you achieve maximum uptime, reliability, and peace of mind.",
       ]
     },
     {
       id: 2,
-      title: "DC Voltage Analysis",
+      title: "Need Our Solution?",
       icon: <FiActivity className="h-8 w-8" />,
+      img:"https://msplgroup.com/assets/img/services-2.jpg",
       paragraphs: [
-        "Precise DC voltage measurements across individual battery cells and complete strings identify voltage imbalances that indicate cell degradation, charging system problems, or connection issues.",
-        "Float voltage monitoring ensures proper charging levels are maintained to maximize battery life while preventing overcharging that can damage cells and reduce service life.",
-        "Load testing under controlled conditions simulates actual emergency conditions to verify that batteries can deliver required power for specified duration during outages.",
-        "Charging system analysis evaluates charger performance, regulation accuracy, and temperature compensation to ensure optimal battery maintenance and longevity.",
-        "Voltage ripple analysis identifies AC components in DC systems that can accelerate battery degradation and indicate problems with rectifier or filtering systems."
+        "Looking for UPS on Rent, UPS Maintenance, or UPS on Hire?",
+        "At Upflair Technologies, we’ve got you covered!",
+        "We offer a wide range of high-quality UPS systems and reliable power solutions designed to match your exact business needs. Whether you require short-term rentals, long-term maintenance, or complete UPS solutions, our team will help you find the perfect fit—ensuring uninterrupted power and peace of mind.",
+        "📞 Contact us today to explore the right UPS solution for your business!",
       ]
     },
-    {
-      id: 3,
-      title: "Ripple Current Measurement",
-      icon: <FiTrendingDown className="h-8 w-8" />,
-      paragraphs: [
-        "AC ripple current measurement identifies unwanted alternating current components in DC battery systems that can cause excessive heating and accelerated battery degradation.",
-        "Harmonic analysis of ripple currents reveals the frequency components and sources of AC contamination, enabling targeted corrective action to protect battery systems.",
-        "Thermal impact assessment evaluates the heating effects of ripple currents on battery performance and life expectancy, providing data for system optimization.",
-        "Charger performance evaluation determines whether excessive ripple results from charger malfunction, inadequate filtering, or improper system configuration.",
-        "Mitigation strategies include filter installation, charger adjustment, or system reconfiguration to minimize ripple current and extend battery service life."
-      ]
-    },
-    {
-      id: 4,
-      title: "Predictive Maintenance Planning",
-      icon: <FiAlertCircle className="h-8 w-8" />,
-      paragraphs: [
-        "Trend analysis of impedance measurements over time reveals the rate of battery degradation and enables accurate prediction of when replacement will be required.",
-        "Risk assessment identifies batteries with high failure probability, allowing for proactive replacement before critical failures occur during emergency situations.",
-        "Maintenance scheduling optimization uses actual battery condition data rather than arbitrary time intervals to determine when testing and maintenance should be performed.",
-        "Cost optimization balances battery replacement costs against reliability requirements, helping determine the most economical replacement strategy for different applications.",
-        "Documentation and reporting provide complete records of battery performance trends, test results, and maintenance actions for warranty claims and regulatory compliance."
-      ]
-    },
-    {
-      id: 5,
-      title: "Compliance and Safety Verification",
-      icon: <FiCheckCircle className="h-8 w-8" />,
-      paragraphs: [
-        "IEEE and industry standard compliance verification ensures that battery systems meet performance requirements for critical applications including emergency lighting, fire safety, and backup power systems.",
-        "Safety testing includes verification of proper ventilation, temperature monitoring, and protection systems to prevent battery-related safety hazards including thermal runaway and gas accumulation.",
-        "Regulatory compliance documentation supports inspections by authorities having jurisdiction and demonstrates adherence to building codes and safety standards.",
-        "Insurance requirements verification provides documentation that may be required by insurance companies to maintain coverage for facilities with critical backup power systems.",
-        "Quality assurance protocols ensure that all testing procedures follow established standards and that results are accurate, reliable, and properly documented for future reference."
-      ]
-    }
+ 
   ];
 
   const imageGallery = [
     {
-      title: "Battery Impedance Tester",
-      description: "Advanced battery impedance testing equipment measuring internal resistance and voltage of individual battery cells to assess health and performance.",
-      image: "/battery-testing-1.jpg"
+      title: "Real-time Monitoring",
+      description: "Remote UPS monitoring provides real-time visibility into the UPS system's performance, including input/output voltages, load levels, battery status, and overall system health. This feature allows users to stay informed about the UPS's operational status and identify any potential issues promptly.",
+      image: "https://media.istockphoto.com/id/2182751072/photo/businessman-pointing-icon-with-smart-devices-connectivity-automation-real-time-data-machine.webp?a=1&b=1&s=612x612&w=0&k=20&c=tKlWLawdELapho228O191SwQOo5f6ENFpV9JHC7qlWY="
     },
     {
-      title: "UPS Battery Bank Testing",
-      description: "Comprehensive testing of uninterruptible power supply battery bank including impedance measurements and capacity verification.",
-      image: "/battery-testing-2.jpg"
+      title: "Alert Notifications",
+      description: "Remote UPS monitoring systems send out automated alerts and notifications in the event of critical events or abnormalities. These alerts can be delivered via email, SMS, or through dedicated monitoring software, enabling users to respond quickly to any UPS-related issues or failures.",
+      image: "https://media.istockphoto.com/id/2148676029/photo/warning-attention-symbol-with-exclamation-mark-in-the-triangle-on-the-abstract-human-hand.webp?a=1&b=1&s=612x612&w=0&k=20&c=_z5PN_bEKKcy2s9ycEWFxLfZFDucf1KZ1BsCB4OBMC4="
     },
     {
-      title: "Battery Monitoring System",
-      description: "Continuous battery monitoring system tracking voltage, temperature, and impedance trends for predictive maintenance planning.",
-      image: "/battery-testing-3.jpg"
+      title: "Historical Data Analysis",
+      description: "Remote UPS monitoring collects and stores historical data on UPS performance and power events. This feature allows users to analyze trends, identify patterns, and assess the overall reliability and efficiency of the UPS system over time. It can also help in planning for future capacity needs.",
+      image: "https://media.istockphoto.com/id/1472089286/photo/magnifying-glass-on-a-stack-of-documents.webp?a=1&b=1&s=612x612&w=0&k=20&c=4xPXxkPYFfkNEJKJe18AxFIV8r8EWoGo520GornmXoU="
     },
-    {
-      title: "Load Testing Equipment",
-      description: "Battery load testing equipment simulating actual operating conditions to verify backup power capability and runtime performance.",
-      image: "/battery-testing-4.jpg"
-    },
-    {
-      title: "Test Results Analysis",
-      description: "Detailed analysis of battery test results showing impedance trends, voltage measurements, and recommendations for maintenance actions.",
-      image: "/battery-testing-5.jpg"
-    }
+  
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[400px] bg-[url('/battery-testing-hero.jpg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-green-900/80 to-green-700/60 flex items-center justify-center">
+      <section className="relative h-[400px] bg-[url('/11.png')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Battery Impedance Testing</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Comprehensive battery health assessment and performance verification
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Remote UPS Monitoring</h1>
+            <p className="text-xl md:text-2xl max-w-7xl mx-auto">
+          Experience seamless remote monitoring and management of your UPS systems with our state-of-the-art UPS remote monitoring service, including advanced features such as APC remote UPS monitoring, ensuring proactive maintenance and uninterrupted power protection.
             </p>
           </div>
         </div>
@@ -110,13 +65,6 @@ export default function BatteryImpedanceTesting() {
 
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Ensuring Reliable Backup Power</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Our battery impedance testing services provide comprehensive assessment of backup power systems to ensure reliable emergency power availability when you need it most.
-            </p>
-          </div>
 
           {/* Main Content Sections */}
           <div className="space-y-16 mb-20">
@@ -140,9 +88,9 @@ export default function BatteryImpedanceTesting() {
                 <div className="flex-1">
                   <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
                     <img 
-                      src={`/battery-testing-section-${section.id}.jpg`}
+                      src={section.img}
                       alt={section.title}
-                      className="w-full h-full object-cover rounded-2xl"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
@@ -152,7 +100,9 @@ export default function BatteryImpedanceTesting() {
 
           {/* Image Gallery Section */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Battery Testing Gallery</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">OUR SERVICE OF <br />
+
+Remote UPS Monitoring</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
@@ -172,25 +122,7 @@ export default function BatteryImpedanceTesting() {
             </div>
           </div>
 
-          {/* CTA Section */}
-          <div className="bg-gradient-to-r from-green-600 to-green-800 rounded-2xl p-8 md:p-12 text-white">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Test Your Batteries?</h2>
-              <p className="text-lg mb-8 text-green-100">
-                Contact our battery testing specialists to schedule comprehensive impedance testing and ensure your backup power systems are ready when you need them.
-              </p>
-              <a
-                href="/contact"
-                className="inline-flex items-center justify-center gap-3 bg-white text-green-700 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                <span>Schedule Testing</span>
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M13 18L19 12L13 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </a>
-            </div>
-          </div>
+        
         </div>
       </section>
     </div>

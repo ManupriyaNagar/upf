@@ -74,13 +74,13 @@ const Headers = () => {
         },
         {
             title: "UPS Maintenance Contracts",
-            description: "We at MSPL group provides Comprehensive UPS maintenance contracts designed to your specific power requirements, ensuring reliable UPS service, annual maintenance, expert guidance on how to maintain your UPS, and a thorough UPS maintenance checklist.",
+            description: "We at upflair group provides Comprehensive UPS maintenance contracts designed to your specific power requirements, ensuring reliable UPS service, annual maintenance, expert guidance on how to maintain your UPS, and a thorough UPS maintenance checklist.",
             href: "/services/ups-maintenance"
         },
         {
             title: "Battery Monitoring",
             description: "Efficiently monitor and manage your UPS battery health with our advanced battery monitoring system, offering comprehensive oversight and proactive measures to ensure optimal performance and reliability.",
-            href: "/services/thermography"
+            href: "/services/battery"
         },
         {
             title: "Remote UPS Monitoring",
@@ -191,7 +191,7 @@ const Headers = () => {
                         
                         {/* Dropdown Menu */}
                         {isServicesOpen && (
-                            <div className="absolute top-full -left-190 mt-2 w-[1300px] bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+                            <div className="absolute top-full -left-190  w-[1300px] bg-white border border-gray-200 rounded-lg shadow-lg z-50">
                                 <div className="p-6">
                                     <h3 className="text-lg font-semibold text-gray-800 mb-4">SERVICE CATEGORIES</h3>
                                     <div className="grid grid-cols-4 gap-6">

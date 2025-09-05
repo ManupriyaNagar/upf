@@ -34,11 +34,7 @@ const Footer = () => {
               height={54}
               priority
             />
-            <p className="text-sm leading-relaxed">
-              Upflair is a leading provider of innovative digital solutions, 
-              specializing in web development, mobile applications, and digital 
-              transformation to empower businesses in the modern digital landscape.
-            </p>
+     
           </div>
 
           {/* Column 2 */}

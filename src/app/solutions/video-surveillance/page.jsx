@@ -25,7 +25,7 @@ export default function VideoSurveillanceSolutions() {
 
       paragraphs: [
         "Safeguard your home and office with our user-friendly analog HD cameras. Equipped with night vision, digital zoom, wide-angle lenses, and advanced video analytics, our cameras offer reliable protection.",
-        "Count on MAHAVIR SYS POWER Group to provide you with trustworthy analog HD cameras, ensuring peace of mind and protection against any potential issues you may encounter."
+        "Count on Upflair Group to provide you with trustworthy analog HD cameras, ensuring peace of mind and protection against any potential issues you may encounter."
         
       ]
     }
