@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
@@ -47,12 +48,16 @@ export default function HeroSlider() {
               {slide.desc}
             </p>
             <div className="flex space-x-4">
-              <button className="px-6 py-3 bg-[#169548] hover:bg-[#0a1f55] rounded shadow text-white font-semibold transition">
-                Learn More →
-              </button>
-              <button className="px-6 py-3 bg-[#169548] hover:bg-[#0a1f55] rounded shadow text-white font-semibold transition">
-                Global Help →
-              </button>
+              <Link href="/about">
+                <button className="px-6 py-3 bg-[#169548] hover:bg-[#0a1f55] rounded shadow text-white font-semibold transition">
+                  Learn More →
+                </button>
+              </Link>
+              <Link href="/contact">
+                <button className="px-6 py-3 bg-[#169548] hover:bg-[#0a1f55] rounded shadow text-white font-semibold transition">
+                  Global Help →
+                </button>
+              </Link>
             </div>
           </div>
         </div>

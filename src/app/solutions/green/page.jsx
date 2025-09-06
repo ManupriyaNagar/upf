@@ -38,7 +38,7 @@ export default function GreenSolutions() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] bg-[url('/7.png')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-green-900/80 to-green-700/60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Green Solutions</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">

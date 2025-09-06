@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 import { FiHome, FiBriefcase, FiTool, FiServer, FiRefreshCw, FiZap } from 'react-icons/fi';
 
 // Data for the solution cards
@@ -9,42 +10,48 @@ const solutionsData = [
     title: "Home & Office Solutions",
     icon: <FiHome className="h-8 w-8" />,
     backgroundImage: "/32.png", // Replace with actual image paths
-    description: "Comprehensive energy solutions for residential and commercial spaces"
+    description: "Comprehensive energy solutions for residential and commercial spaces",
+    link: "/solutions/home-office"
   },
   {
     id: 2,
     title: "Business Solution",
     icon: <FiBriefcase className="h-8 w-8" />,
     backgroundImage: "/4.png",
-    description: "Tailored business energy management and efficiency solutions"
+    description: "Tailored business energy management and efficiency solutions",
+    link: "/solutions/business"
   },
   {
     id: 3,
     title: "Industrial Solution",
     icon: <FiTool className="h-8 w-8" />,
     backgroundImage: "5.png",
-    description: "Heavy-duty industrial power and infrastructure solutions"
+    description: "Heavy-duty industrial power and infrastructure solutions",
+    link: "/solutions/industrial"
   },
   {
     id: 4,
     title: "Data Center Solutions",
     icon: <FiServer className="h-8 w-8" />,
     backgroundImage: "img1.jpeg", // Replace with your actual image paths
-    description: "Mission-critical data center power and cooling solutions"
+    description: "Mission-critical data center power and cooling solutions",
+    link: "/solutions/data-center"
   },
   {
     id: 5,
     title: "Green Solution",
     icon: <FiRefreshCw className="h-8 w-8" />,
     backgroundImage: "/7.png", // Replace with your actual image paths
-    description: "Sustainable and environmentally friendly energy solutions"
+    description: "Sustainable and environmentally friendly energy solutions",
+    link: "/solutions/green"
   },
   {
     id: 6,
     title: "Electrical Turnkey Contract",
     icon: <FiZap className="h-8 w-8" />,
     backgroundImage: "/8.png", // Replace with your actual image paths
-    description: "Complete electrical project management and implementation"
+    description: "Complete electrical project management and implementation",
+    link: "/solutions/electrical-turnkey"
   }
 ];
 
@@ -61,9 +68,10 @@ const Solutions = () => {
         {/* Solutions Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {solutionsData.map((solution) => (
-            <div
+            <Link
               key={solution.id}
-              className="group relative overflow-hidden rounded-2xl aspect-[16/10] cursor-pointer transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl"
+              href={solution.link}
+              className="group relative overflow-hidden rounded-2xl aspect-[16/10] cursor-pointer transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl block"
             >
               {/* Background Image with Overlay */}
               <div 
@@ -91,7 +99,7 @@ const Solutions = () => {
               </div>
               {/* Hover Overlay Effect */}
               <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

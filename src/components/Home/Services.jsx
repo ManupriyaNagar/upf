@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Services = () => {
   const servicesData = [
@@ -6,49 +7,57 @@ const Services = () => {
       id: 1,
       image: '/ups.jpeg',
       heading: 'UPS Maintenance Contracts',
-      paragraph: "Upflair offers tailored UPS maintenance contracts with reliable service, annual checks, expert guidance, and complete care."
+      paragraph: "Upflair offers tailored UPS maintenance contracts with reliable service, annual checks, expert guidance, and complete care.",
+      link: '/services/ups-maintenance'
     },
     {
       id: 2,
       image: '/battery.jpeg',
       heading: 'Battery Monitoring',
-      paragraph: 'Optimize UPS performance with our advanced battery monitoring system for reliable, proactive management.'
+      paragraph: 'Optimize UPS performance with our advanced battery monitoring system for reliable, proactive management.',
+      link: '/services/battery'
     },
     {
       id: 3,
       image: '/remote.jpeg',
       heading: 'Remote UPS Monitoring',
-      paragraph: 'Ensure uninterrupted power with our advanced UPS remote monitoring for seamless, proactive management.'
+      paragraph: 'Ensure uninterrupted power with our advanced UPS remote monitoring for seamless, proactive management.',
+      link: '/services/remote-ups'
     },
     {
       id: 4,
       image: '/hire.jpeg',
       heading: 'UPS Hire',
-      paragraph: 'Ensure reliable power anytime with our flexible UPS rental solutions for uninterrupted supply and peace of mind.'
+      paragraph: 'Ensure reliable power anytime with our flexible UPS rental solutions for uninterrupted supply and peace of mind.',
+      link: '/services/ups-hire'
     },
     {
       id: 5,
       image: '/disposal.jpeg',
       heading: 'UPS Relocation & Disposal',
-      paragraph: "Simplify UPS relocation and disposal with our professional, eco-compliant service for units and batteries."
+      paragraph: "Simplify UPS relocation and disposal with our professional, eco-compliant service for units and batteries.",
+      link: '/services/relocation'
     },
     {
       id: 6,
       image: '/bank.jpeg',
       heading: 'Load Bank Testing',
-      paragraph: 'Safeguard your UPS with our precise load bank testing, ensuring reliability, validated performance, and issue prevention.'
+      paragraph: 'Safeguard your UPS with our precise load bank testing, ensuring reliability, validated performance, and issue prevention.',
+      link: '/services/load-banking'
     },
     {
       id: 7,
       image: '/integrated.jpeg',
       heading: 'Integrated System Testing',
-      paragraph: 'Ensure seamless coordination and performance with our comprehensive integrated system testing service.'
+      paragraph: 'Ensure seamless coordination and performance with our comprehensive integrated system testing service.',
+      link: '/services/testing'
     },
     {
       id: 8,
       image: '/audit.jpeg',
       heading: 'Energy Audit',
-      paragraph: 'Practical renewable energy technology that reduces costs and helps the environment'
+      paragraph: 'Practical renewable energy technology that reduces costs and helps the environment',
+      link: '/services/audit'
     }
   ];
 
@@ -63,7 +72,11 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {servicesData.map((service) => (
-            <div key={service.id} className="bg-white  border-2 border-[#169548] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+            <Link
+              key={service.id}
+              href={service.link}
+              className="bg-white border-2 border-[#169548] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden block cursor-pointer"
+            >
               <div className="aspect-w-16 aspect-h-9">
                 <img 
                   src={service.image} 
@@ -75,7 +88,7 @@ const Services = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.heading}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed ">{service.paragraph}</p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

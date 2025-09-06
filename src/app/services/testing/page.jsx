@@ -56,7 +56,7 @@ export default function IntegratedSystemTesting() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] bg-[url('/15.png')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-indigo-700/40 flex items-center justify-center">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Integrated System Testing (IST)</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto">

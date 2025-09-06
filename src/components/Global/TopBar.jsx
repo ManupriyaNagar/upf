@@ -22,20 +22,18 @@ export default function TopBar() {
         <div className="flex items-center space-x-6 mt-2 sm:mt-0">
           {/* Links */}
           <div className="flex space-x-4">
-            <a href="#" className="hover:underline">Careers</a>
+            <a href="https://www.google.com/maps/place/522%2Fa,+19th+Main+Rd,+Sector+3,+HSR+Layout,+Bengaluru,+Karnataka+560102/@12.9050462,77.6414794,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1499b113353d:0x3437676c18416969!8m2!3d12.905041!4d77.6440543!16s%2Fg%2F11snpzzg0y?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D" className="hover:underline " target="_blank" rel="noopener noreferrer">Location</a>
             <span>|</span>
-            <a href="#" className="hover:underline">Media</a>
-            <span>|</span>
-            <a href="#" className="hover:underline">FAQs</a>
+            <a href="/contact" className="hover:underline">Contact Us</a>
+       
           </div>
 
           {/* Social Icons */}
           <div className="flex space-x-3">
-            <a href="#" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"><FaFacebookF /></a>
-            <a href="#" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"><FaTwitter /></a>
-            <a href="#" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"><FaGooglePlusG /></a>
-            <a href="#" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"><FaLinkedinIn /></a>
-            <a href="#" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition"><FaVimeoV /></a>
+
+            <a href="https://www.linkedin.com/company/uplflair/posts/?feedView=all" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+           
+
           </div>
         </div>
       </div>

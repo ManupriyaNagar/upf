@@ -204,7 +204,7 @@ Bengaluru, Bengaluru Urban, Karnataka, 560102</p>
                 Contact us today for a free consultation and let's discuss how we can help you achieve your business goals.
               </p>
               <a
-                href="tel:+17092386035"
+                href="tel:+91 9035300045"
                 className="inline-flex items-center justify-center gap-3 bg-white text-[#0a1f55] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 <PhoneIcon className="h-5 w-5" />
