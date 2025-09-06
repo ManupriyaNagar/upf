@@ -37,17 +37,17 @@ export default function IntegratedSystemTesting() {
     {
       title: "System-Wide Testing",
       description: "At Upflair Technologies, our Integrated System Testing (IST) ensures that your entire power and backup system works seamlessly as a whole. Instead of testing components in isolation, we focus on how all elements—UPS, batteries, generators, cabling, and switchgear—function together, delivering a complete performance overview.",
-      image: "/testing-1.jpg"
+      image: "/load2.jpeg"
     },
     {
       title: "Real-World Scenarios",
       description: "We simulate real-world operating conditions to identify potential issues before they become critical. By replicating power failures, outages, and load variations, our IST process prepares your systems to perform reliably under actual working environments.",
-      image: "/testing-2.jpg"
+      image: "https://static1.squarespace.com/static/64417fb9cf9d6f67a1bc85b6/64f9f11fab26df165f3149d7/65ce687b3e817664133e4f18/1708027076383/IMG-2029-min.jpg?format=1500w"
     },
     {
       title: "Data Integrity Checks",
       description: "Data accuracy is crucial for any business operation. Our IST services include data integrity checks, ensuring that information passing through different parts of the system remains consistent, accurate, and secure. This guarantees smooth functionality for organizations handling sensitive or mission-critical data.",
-      image: "/testing-3.jpg"
+      image: "https://blog.qasource.com/hubfs/a-complete-guide-to-data-integrity-testing-1.jpg"
     },
    
   ];
@@ -68,13 +68,7 @@ export default function IntegratedSystemTesting() {
 
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Streamline Power System Evaluation with Professional IST Services</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              At Upflair Technologies, we help businesses streamline the evaluation and functionality of their power and backup systems with our comprehensive Integrated System Testing (IST) services. This ensures seamless coordination and reliable performance across all interconnected components—so your operations remain protected even in critical situations.
-            </p>
-          </div>
+         
 
           {/* Main Content Sections */}
           <div className="space-y-16 mb-20">

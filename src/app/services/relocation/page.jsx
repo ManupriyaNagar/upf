@@ -9,7 +9,7 @@ export default function SocketTesting() {
       id: 1,
       title: "UPS Relocation Services",
       icon: <FaPlug className="h-8 w-8" />,
-      img:"https://plus.unsplash.com/premium_photo-1664300914931-76c0f99a96b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFVQUyUyMFJlbG9jYXRpb24lMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      img:"/relocation1.jpeg",
       paragraphs: [
         "At Upflair Technologies, we specialize in providing complete UPS relocation solutions whether you need to move your system to another room within the same building or to an entirely new site.",
         "The relocation of a UPS is a critical process that involves decommissioning, safe transportation, and re-commissioning of the UPS, along with its associated batteries and electrical switchgear. Our team of trained engineers, supported by an experienced logistics network, ensures that every step is carried out safely, efficiently, and with minimal disruption to your operations.",
@@ -22,7 +22,7 @@ export default function SocketTesting() {
       id: 2,
       title: "UPS Disposal Services",
       icon: <FiShield className="h-8 w-8" />,
-      img:"https://plus.unsplash.com/premium_photo-1661964043731-5cac3cc7d245?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VVBTJTIwRGlzcG9zYWwlMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      img:"/relocation2.jpeg",
       paragraphs: [
         "At Upflair Technologies, we provide safe and reliable UPS disposal services for a wide range of UPS brands. Whether you are upgrading your power systems or decommissioning existing units, our team ensures the process is handled professionally and in compliance with all regulations.",
         "Our trained engineers carefully decommission the UPS and its associated batteries, making sure every step is carried out with safety as the top priority. Once decommissioned, our experienced logistics team securely packs and palletizes the equipment for transportation and proper disposal.",
@@ -69,13 +69,7 @@ export default function SocketTesting() {
 
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Ensuring Electrical Outlet Safety and Reliability</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Our socket testing services provide thorough assessment of electrical outlets to ensure safe operation, regulatory compliance, and optimal performance for all types of electrical installations.
-            </p>
-          </div>
+        
 
           {/* Main Content Sections */}
           <div className="space-y-16 mb-20">
@@ -111,7 +105,7 @@ export default function SocketTesting() {
 
           {/* Image Gallery Section */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Socket Testing Gallery</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Services of UPS Relocation and Disposal</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">

@@ -23,7 +23,7 @@ export default function BatteryImpedanceTesting() {
       paragraphs: [
         "Looking for UPS on Rent, UPS Maintenance, or UPS on Hire?",
         "At Upflair Technologies, we’ve got you covered!",
-        "We offer a wide range of high-quality UPS systems and reliable power solutions designed to match your exact business needs. Whether you require short-term rentals, long-term maintenance, or complete UPS solutions, our team will help you find the perfect fit—ensuring uninterrupted power and peace of mind.",
+        "We offer a wide range of high quality UPS systems and reliable power solutions designed to match your exact business needs. Whether you require short-term rentals, long-term maintenance, or complete UPS solutions, our team will help you find the perfect fit ensuring uninterrupted power and peace of mind.",
         "📞 Contact us today to explore the right UPS solution for your business!",
       ]
     },

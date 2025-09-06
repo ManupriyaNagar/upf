@@ -8,7 +8,7 @@ export default function SpecialisedServices() {
       id: 1,
       title: "Load Bank Testing Services",
       icon: <FiSettings className="h-8 w-8" />,
-      img:"https://media.istockphoto.com/id/1072205164/photo/bank-employee-opening-atm-safe-checking-breakdown-cash-in-transit-service.webp?a=1&b=1&s=612x612&w=0&k=20&c=rFYQyj1wLtrXBH1S-Qm3Oe8pYeoWqEesruW1lhOgx2I=",
+      img:"/load1.jpeg",
       paragraphs: [
         "At Upflair Technologies, we offer a comprehensive Load Bank Testing service to simulate real client load conditions and verify the integrity of the entire power protection system. This process ensures that your UPS, batteries, and supporting infrastructure work seamlessly together when it matters most.",
         "While commissioning procedures, routine testing, and preventive maintenance are vital, the only definitive way to confirm that all components will function correctly under real-world demands is through load bank testing. By fully loading the system in a controlled environment, every component is stressed, and potential weaknesses can be identified before they impact critical operations.",

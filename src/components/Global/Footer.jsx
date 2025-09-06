@@ -21,7 +21,7 @@ const Footer = () => {
   );
 
   return (
-    <footer className=" bg-slate-900 text-gray-300">
+    <footer className=" bg-gray-200 text-black">
       <div className="container mx-auto  pt-12 pb-8">
         {/* Main Grid */}
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 mb-12">
@@ -34,12 +34,13 @@ const Footer = () => {
               height={54}
               priority
             />
+            <p className="text-[0.922rem]">Upflair Technologies started as a start-up with a focus on delivering efficient, high-quality UPS solutions for small and medium-sized businesses. We are proud to be the first power-saving and backup solution providers in Bengaluru, ensuring seamless power continuity for our clients.</p>
      
           </div>
 
           {/* Column 2 */}
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-semibold text-white mb-4">
+            <h3 className="text-lg font-semibold mb-4">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -52,7 +53,7 @@ const Footer = () => {
 
           {/* Column 3 */}
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-semibold text-white mb-4">
+            <h3 className="text-lg font-semibold mb-4">
               Official Info
             </h3>
             <div className="space-y-4">

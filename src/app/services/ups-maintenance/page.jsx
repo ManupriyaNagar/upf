@@ -8,6 +8,7 @@ export default function PowerQualityAnalysis() {
       id: 1,
       title: "Upflair’s Maintenance Plans Offer:",
       icon: <FiZap className="h-8 w-8" />,
+      img:"https://www.deltapowersolutions.com/media/images/products/Delta-UPS-System.jpg",
       paragraphs: [
         "At Upflair Technologies, we provide flexible maintenance plans designed to minimize risks and control costs. Our plans include regular preventive maintenance visits, with the freedom to choose the response time that best fits your business needs.",
         "To ensure maximum reliability of your UPS systems, our service plans focus on early detection of critical component wear and degradation. This proactive approach allows us to perform timely repairs or replacements before failures occur, keeping your operations uninterrupted.",
@@ -44,9 +45,9 @@ export default function PowerQualityAnalysis() {
       <section className="relative h-[400px] bg-[url('/92.png')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/40 to-blue-700/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Power Quality Analysis</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Comprehensive power quality assessment and monitoring solutions
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">UPS Maintenance Contracts</h1>
+            <p className="text-xl md:text-2xl max-w-7xl mx-auto">
+              We at upflair provides Comprehensive UPS maintenance contracts designed to your specific power requirements, ensuring reliable UPS service, annual maintenance, expert guidance on how to maintain your UPS, and a thorough UPS maintenance checklist.
             </p>
           </div>
         </div>
@@ -54,14 +55,7 @@ export default function PowerQualityAnalysis() {
 
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          {/* Introduction */}
-          <div className="text-center max-w-7xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Ensuring Optimal Power Quality</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-      
-We at upflair group provides Comprehensive UPS maintenance contracts designed to your specific power requirements, ensuring reliable UPS service, annual maintenance, expert guidance on how to maintain your UPS, and a thorough UPS maintenance checklist.
-            </p>
-          </div>
+        
 
           {/* Main Content Sections */}
           <div className="space-y-16 mb-20">
@@ -85,11 +79,12 @@ We at upflair group provides Comprehensive UPS maintenance contracts designed to
                 <div className="flex-1">
                   <div className="bg-gray-200 rounded-2xl h-80 flex items-center justify-center">
                     <img 
-                      src={`/power-quality-section-${section.id}.jpg`}
+                      src={section.img}
                       alt={section.title}
                       className="w-full h-full object-cover rounded-2xl"
                     />
                   </div>
+           
                 </div>
               </div>
             ))}

@@ -9,7 +9,7 @@ export default function Thermography() {
       title: "The UPTIME+ Advantage from Upflair",
       icon: <FiCamera className="h-8 w-8" />,
 
-      img:"https://media.istockphoto.com/id/1179405499/photo/silhouette-happy-family-people-group-celebrate-jump-for-good-life-on-weekend-concept-for-win.webp?a=1&b=1&s=612x612&w=0&k=20&c=dEMs74za29Hj28mGk-s_yEn1BoOkKMJfkWN5o7_T1A8=",
+      img:"https://www.marketresearchintellect.com/images/blogs/keeping-the-charge-battery-monitoring-system-market-expands-with-electric-vehicle-surge.webp",
       paragraphs: [
         "At Upflair Technologies, we leverage advanced web-management technology to ensure the maximum performance and reliability of your UPS batteries.",
         "Our UPTIME+ system continuously monitors key parameters such as internal resistance, temperature, and voltage of every single battery in sequence. Through a smart Equalization process, it optimizes the charging voltage range—effectively preventing issues like gassing, dry-out, and thermal runaway.",
@@ -21,7 +21,7 @@ export default function Thermography() {
       id: 2,
       title: "Smart Reporting with UPTIME+",
       icon: <FiAlertTriangle className="h-8 w-8" />,
-            img:"https://images.unsplash.com/photo-1611220277153-a90d3b6e739a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U21hcnQlMjBSZXBvcnRpbmclMjB3aXRoJTIwVVBUSU1FJTJCfGVufDB8fDB8fHww",
+            img:"/battery1.jpeg",
       paragraphs: [
         "At Upflair Technologies, we believe in complete transparency and control over your power systems. Our UPTIME+ reporting system provides real-time visibility into the health of all lead-acid batteries by tracking key parameters such as impedance, temperature, and voltage.",
         "Every change is instantly displayed and securely stored, enabling you to monitor performance trends over time. With the UPTIME+ Viewer, reports can be generated and reviewed regularly on-site, ensuring constant system oversight.",
@@ -65,14 +65,7 @@ export default function Thermography() {
 
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          {/* Introduction */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">Precision Thermal Imaging Solutions</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Our thermography services use advanced infrared technology to identify electrical hotspots and potential failure points, enabling proactive maintenance and preventing costly equipment failures.
-            </p>
-          </div>
-
+       
           {/* Main Content Sections */}
           <div className="space-y-16 mb-20">
             {sections.map((section, index) => (

@@ -8,10 +8,10 @@ export default function EarthPitTesting() {
       id: 1,
       title: "UPS on Rent Packages from Upflair",
       icon: <FiLayers className="h-8 w-8" />,
-      img:"https://images.unsplash.com/photo-1614018453562-77f6180ce036?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VVBTJTIwb24lMjBSZW50JTIwUGFja2FnZXMlMjBmcm9tJTIwVXBmbGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+      img:"/upshire1.jpeg",
       paragraphs: [
         "At Upflair Technologies, we provide exclusive UPS rental solutions tailored to your business and personal power needs. Our rental range covers 1 kVA to 500 kVA UPS systems, with batteries configured to suit your exact requirements.",
-        "Whether for industrial use or home applications, we offer a wide selection of trusted brands, including APC, Schneider, and Luminous. Our inventory includes single-phase, three-phase, rack-mounted, standalone, and modular UPS systems—giving you complete flexibility in choosing the right solution.",
+        "Whether for industrial use or home applications, we offer a wide selection of trusted brands, including APC, Schneider, and Luminous. Our inventory includes single-phase, three phase, rack-mounted, standalone, and modular UPS systems giving you complete flexibility in choosing the right solution.",
         "With reliable performance, quick availability, and cost-effective plans, UPS on rent from Upflair is the smart way to ensure uninterrupted power without heavy upfront investments.",
       ]
     },
@@ -19,15 +19,15 @@ export default function EarthPitTesting() {
       id: 2,
       title: "UPS Hire Packages from Upflair",
       icon: <FiZap className="h-8 w-8" />,
-      img:"https://msplgroup.com/assets/img/services-2.jpg",
+      img:"/upshire2.jpeg",
       paragraphs: [
-        "At Upflair Technologies, we deliver end-to-end UPS hire solutions designed to make your rental experience seamless and hassle-free. Our complete package includes:",
+        "At Upflair Technologies, we deliver end to end UPS hire solutions designed to make your rental experience seamless and hassle-free. Our complete package includes:",
         "-> Delivery to your site",
         "-> Professional installation",
         "-> Commissioning and battery build (if required)",
         "-> Decommissioning and removal at the end of the rental period",
         "-> Over the years, we’ve successfully powered projects for educational institutions, banks, data centers, and even large-scale events. From supporting sporting events like the IPL to providing reliable backup for India’s biggest reality shows, our UPS hire services have proven to deliver uninterrupted performance where it matters most.",
-        "Choose Upflair’s UPS Hire Package for trusted power solutions—backed by expertise and experience."
+        "Choose Upflair’s UPS Hire Package for trusted power solutions backed by expertise and experience."
       ]
     },
 
@@ -37,27 +37,27 @@ export default function EarthPitTesting() {
   const imageGallery = [
     {
       title: "Seamless Power Backup",
-      description: "At Upflair Technologies, our UPS hire solutions ensure uninterrupted power during outages or fluctuations. With a smooth transition between the main supply and backup, your critical systems and equipment—from data centers and hospitals to manufacturing units—keep running without disruption.",
+      description: "At Upflair Technologies, our UPS hire solutions ensure uninterrupted power during outages or fluctuations. With a smooth transition between the main supply and backup, your critical systems and equipment from data centers and hospitals to manufacturing units keep running without disruption.",
       image: "https://media.istockphoto.com/id/1169814011/photo/visualization-3d-cad-model-of-uninterruptible-power-supply-blueprint-3d-rendering.webp?a=1&b=1&s=612x612&w=0&k=20&c=Dywg_-dM5D-sCMa2AJJCH7mvmgQpb5fGQH3vR1V-LH0="
     },
     {
       title: "Scalability to Match Your Needs",
-      description: "Power demands often change due to seasonal variations, expansion, or short-term projects. With our scalable UPS rental options, you can easily adjust backup capacity to match your requirements—without the need for large, fixed investments in permanent systems.",
+      description: "Power demands often change due to seasonal variations, expansion, or short-term projects. With our scalable UPS rental options, you can easily adjust backup capacity to match your requirements without the need for large, fixed investments in permanent systems.",
       image: "https://plus.unsplash.com/premium_photo-1681586533774-1d9d42425712?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fFNjYWxhYmlsaXR5JTIwdG8lMjBNYXRjaCUyMFlvdXIlMjBOZWVkc3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       title: "Expert Maintenance & Support",
-      description: "When you choose UPS hire from Upflair, you also gain access to our expert maintenance and support services. We handle inspections, preventive maintenance, and repairs—ensuring your system is always in peak operating condition, so you can focus on your core business.",
+      description: "When you choose UPS hire from Upflair, you also gain access to our expert maintenance and support services. We handle inspections, preventive maintenance, and repairs ensuring your system is always in peak operating condition, so you can focus on your core business.",
       image: "https://media.istockphoto.com/id/499148420/photo/facility-management.webp?a=1&b=1&s=612x612&w=0&k=20&c=yulFav_l-9zUjF6X0N8D8TaphD-su-yPvBfO8Dsmp8w="
     },
     {
       title: "Advanced Monitoring & Management",
-      description: "Our UPS rental packages come with intelligent monitoring tools that provide real-time insights into system performance, power usage, and alerts for any issues. This allows proactive problem-solving and ensures maximum efficiency at all times.",
+      description: "Our UPS rental packages come with intelligent monitoring tools that provide real time insights into system performance, power usage, and alerts for any issues. This allows proactive problem solving and ensures maximum efficiency at all times.",
       image: "https://media.istockphoto.com/id/2204328752/photo/engineer-evaluating-machinery-while-using-a-tablet-in-a-modern-industrial-facility.webp?a=1&b=1&s=612x612&w=0&k=20&c=iHAUlRkbyFlVCXTQxDz1ICtSaITk_iSKahdHGfkb65Q="
     },
     {
       title: "Cost-Effective Power Solutions",
-      description: "Renting a UPS is a smart and cost-efficient alternative to buying. With no heavy upfront investments or hidden costs for batteries, installations, or upgrades, you benefit from predictable rental fees while freeing up capital for other business priorities.",
+      description: "Renting a UPS is a smart and cost efficient alternative to buying. With no heavy upfront investments or hidden costs for batteries, installations, or upgrades, you benefit from predictable rental fees while freeing up capital for other business priorities.",
       image: "https://images.unsplash.com/photo-1681495628907-592089c3a546?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q29zdCUyMEVmZmVjdGl2ZSUyMFBvd2VyJTIwU29sdXRpb25zfGVufDB8fDB8fHww"
     }
   ];
@@ -101,7 +101,7 @@ export default function EarthPitTesting() {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-90 flex items-center justify-center">
+                  <div className="bg-gray-200 rounded-2xl h-full flex items-center justify-center">
                     <img
                       src={section.img}
                       alt={section.title}
