@@ -77,12 +77,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 ">
+      <section className="md:py-16  pt-10 md:px-0 px-4 ">
         <div className="max-w-7xl mx-auto">
           {/* Introduction Section */}
           <div className="text-center max-w-7xl mx-auto mb-20">
-            <h2 className="text-5xl font-medium text-[#0a1f55]  mb-6">Our Story</h2>
-            <p className="text-gray-600 text-lg leading-relaxed ">
+            <h2 className="text-5xl font-medium text-[#0a1f55] mb-6">Our Story</h2>
+            <p className="text-gray-600 text-lg leading-relaxed md:text-center text-justify">
               Upflair Technology specializes in the electrical industry, having successfully completed numerous national-scale commercial and industrial projects. We provide reliable, efficient, and cost-effective solutions to both local and multinational companies across India. Offering end-to-end services, from design to execution and project management, we ensure top-quality results. Our commitment is backed by extensive technical support, after-sales service, and a well-stocked inventory for prompt customer response.
             </p>
           </div>

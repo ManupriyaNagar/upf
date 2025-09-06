@@ -86,42 +86,41 @@ export default function BusinessSolutions() {
         </div>
       </section>
 
-      <section className="py-16 ">
+      <section className="py-12 md:py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Introduction */}
-          <div className="text-center max-w-7xl mx-auto mb-16">
-            <h2 className="text-4xl font-medium text-[#0a1f55] mb-6">Product and the solutions we can provide</h2>
-            <p className="text-gray-600 text-lg leading-relaxed">
-              We provide reliable and efficient power protection solutions for small to medium-sized businesses. Our products are designed to offer high density, true double-conversion, and online power protection for various equipment such as servers, voice/data networks, point-of-sale (POS) equipment, medical labs, and light industrial applications.             With our top-notch range of power solutions, we ensure that your business receives the best products and services.
+          <div className="text-center max-w-4xl mx-auto mb-12 md:mb-16 px-4">
+            <h2 className="text-3xl md:text-4xl font-medium text-[#0a1f55] mb-4 md:mb-6">Product and the solutions we can provide</h2>
+            <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+              We provide reliable and efficient power protection solutions for small to medium-sized businesses. Our products are designed to offer high density, true double-conversion, and online power protection for various equipment such as servers, voice/data networks, point-of-sale (POS) equipment, medical labs, and light industrial applications. With our top-notch range of power solutions, we ensure that your business receives the best products and services.
             </p>
-
           </div>
 
           {/* Main Content Sections */}
-          <div className="space-y-16 mb-20">
+          <div className="space-y-12 md:space-y-16 mb-16 md:mb-20 px-4">
             {sections.map((section, index) => (
-              <div key={section.id} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}>
+              <div key={section.id} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 md:gap-12 items-center`}>
                 <div className="flex-1">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-700">
+                  <div className="flex flex-col md:flex-row md:items-center gap-4 mb-4 md:mb-6">
+                    <div className="w-12 h-12 md:w-16 md:h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-700 mx-auto md:mx-0">
                       {section.icon}
                     </div>
-                    <h3 className="text-3xl font-bold text-gray-900">{section.title}</h3>
+                    <h3 className="text-xl md:text-3xl font-bold text-gray-900 text-center md:text-left">{section.title}</h3>
                   </div>
-                  <div className="space-y-4">
+                  <div className="space-y-3 md:space-y-4">
                     {section.paragraphs.map((paragraph, pIndex) => (
-                      <p key={pIndex} className="text-gray-600 leading-relaxed">
+                      <p key={pIndex} className="text-gray-600 leading-relaxed text-sm md:text-base">
                         {paragraph}
                       </p>
                     ))}
                   </div>
                 </div>
                 <div className="flex-1">
-                   <div className="bg-gray-200 rounded-2xl h-130 flex items-center justify-center">
+                  <div className="bg-gray-200 rounded-2xl h-64 md:h-80 flex items-center justify-center overflow-hidden">
                     <img 
                       src={section.section}
                       alt={section.title}
-                      className="w-full h-full object-cover "
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
@@ -130,22 +129,23 @@ export default function BusinessSolutions() {
           </div>
 
           {/* Image Gallery Section */}
-          <div className="mb-16">
-            <h2 className="text-4xl font-medium text-[#0a1f55] mb-12 text-center">
-              Experience the power of remote monitoring and take control of your UPS systems and batteries like never before.</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mb-12 md:mb-16 px-4">
+            <h2 className="text-3xl md:text-4xl font-medium text-[#0a1f55] mb-8 md:mb-12 text-center">
+              Experience the power of remote monitoring and take control of your UPS systems and batteries like never before.
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-                  <div className="h-98 bg-gray-200">
+                  <div className="h-48 md:h-64 bg-gray-200">
                     <img
                       src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                  <div className="p-4 md:p-6">
+                    <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">{item.title}</h3>
+                    <p className="text-gray-600 text-sm md:text-base">{item.description}</p>
                   </div>
                 </div>
               ))}
@@ -153,18 +153,18 @@ export default function BusinessSolutions() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-gradient-to-r from-[#0a1f55] to-[#132b74] rounded-2xl p-8 md:p-12 text-white">
+          <div className="bg-gradient-to-r from-[#0a1f55] to-[#132b74] rounded-2xl p-6 md:p-8 lg:p-12 text-white mx-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Optimize Your Business?</h2>
-              <p className="text-lg mb-8 text-blue-100">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">Ready to Optimize Your Business?</h2>
+              <p className="text-base md:text-lg mb-6 md:mb-8 text-blue-100">
                 Contact our business energy experts to discover how our solutions can reduce costs, improve efficiency, and create competitive advantages for your organization.
               </p>
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center gap-3 bg-white text-[#0a1f55] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="inline-flex items-center justify-center gap-3 bg-white text-[#0a1f55] hover:bg-gray-100 px-6 md:px-8 py-3 md:py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 <span>Schedule Consultation</span>
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-4 h-4 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   <path d="M13 18L19 12L13 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>

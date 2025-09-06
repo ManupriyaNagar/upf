@@ -77,35 +77,35 @@ export default function EarthPitTesting() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-12 md:py-16 px-4">
         <div className="max-w-7xl mx-auto">
 
 
           {/* Main Content Sections */}
-          <div className="space-y-16 mb-20">
+          <div className="space-y-12 md:space-y-16 mb-16 md:mb-20">
             {sections.map((section, index) => (
-              <div key={section.id} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}>
+              <div key={section.id} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 md:gap-12 items-center`}>
                 <div className="flex-1">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-green-700">
+                  <div className="flex flex-col md:flex-row md:items-center gap-4 mb-4 md:mb-6">
+                    <div className="w-12 h-12 md:w-16 md:h-16 bg-green-100 rounded-full flex items-center justify-center text-green-700 mx-auto md:mx-0">
                       {section.icon}
                     </div>
-                    <h3 className="text-3xl font-bold text-gray-900">{section.title}</h3>
+                    <h3 className="text-xl md:text-3xl font-bold text-gray-900 text-center md:text-left">{section.title}</h3>
                   </div>
-                  <div className="space-y-4">
+                  <div className="space-y-3 md:space-y-4">
                     {section.paragraphs.map((paragraph, pIndex) => (
-                      <p key={pIndex} className="text-gray-600 leading-relaxed">
+                      <p key={pIndex} className="text-gray-600 leading-relaxed text-sm md:text-base">
                         {paragraph}
                       </p>
                     ))}
                   </div>
                 </div>
                 <div className="flex-1">
-                  <div className="bg-gray-200 rounded-2xl h-full flex items-center justify-center">
+                  <div className="bg-gray-200 rounded-2xl h-64 md:h-80 flex items-center justify-center overflow-hidden">
                     <img
                       src={section.img}
                       alt={section.title}
-                      className="w-full h-full object-cover "
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
@@ -114,21 +114,21 @@ export default function EarthPitTesting() {
           </div>
 
           {/* Image Gallery Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our UPS Hire Service</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 md:mb-12 text-center">Our UPS Hire Service</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {imageGallery.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-                  <div className="h-64 bg-gray-200">
+                  <div className="h-48 md:h-64 bg-gray-200">
                     <img
                       src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                  <div className="p-4 md:p-6">
+                    <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">{item.title}</h3>
+                    <p className="text-gray-600 text-sm md:text-base leading-relaxed">{item.description}</p>
                   </div>
                 </div>
               ))}

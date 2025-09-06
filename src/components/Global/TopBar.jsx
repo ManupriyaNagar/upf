@@ -19,6 +19,7 @@ export default function TopBar() {
         </div>
 
         {/* Right Section */}
+       
         <div className="flex items-center space-x-6 mt-2 sm:mt-0">
           {/* Links */}
           <div className="flex space-x-4">

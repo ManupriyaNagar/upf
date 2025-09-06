@@ -73,7 +73,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <section className="font-sans py-20 bg-gray-50">
+    <section className="font-sans py-20 bg-gray-50 md:px-0 px-4">
       <div className="container mx-auto ">
         {/* Main Heading */}
         <div className="text-center mb-16">
@@ -130,7 +130,7 @@ const Testimonials = () => {
             </div>
 
             {/* Navigation Arrows */}
-            <div className="flex flex-row absolute top-20 right-60 transform -translate-y-1/2 flex flex-col gap-4">
+            <div className="flex flex-row absolute md:top-20 top-10 right-0 md:right-60 transform -translate-y-1/2 flex flex-col gap-4">
               <button
                 onClick={prevTestimonial}
                 className="w-12 h-12 bg-white shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors duration-200 group"

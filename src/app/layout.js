@@ -21,11 +21,13 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" type="image/png" />
       </head>
       <body>
-        <TopBar/>
-              <Headers />
+        <div className="hidden md:block">
+          <TopBar/>
+        </div>
+        <Headers />
         {children}
         <AnimatedChatbot />
-              <Footer />
+        <Footer />
       </body>
     </html>
   );

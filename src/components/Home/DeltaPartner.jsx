@@ -3,7 +3,7 @@ import React from 'react';
 
 const DeltaPartner = () => {
   return (
-    <section className="font-sans py-10 relative overflow-hidden bg-[#0a1f55]">
+    <section className="font-sans py-10 relative overflow-hidden bg-[#0a1f55] md:px-0 px-4">
       <div className="container mx-auto ">
         <div className="">
 
@@ -17,10 +17,8 @@ const DeltaPartner = () => {
               {/* Header */}
               <div className="">
                 <div className="">
-
                   <h2 className="text-5xl lg:text-5xl font-medium text-[#ffffff] tracking-tight mb-8 ">
                     Authorized Business Partner for Delta Electronics
-
                   </h2>
                 </div>
               </div>

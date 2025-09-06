@@ -57,7 +57,7 @@ const solutionsData = [
 
 const Solutions = () => {
   return (
-    <section className="pt-10 bg-gray-50">
+    <section className="md:pt-10 bg-gray-50 md:px-0 px-4">
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">

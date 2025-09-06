@@ -62,7 +62,7 @@ const achievements = [
 
 const About = () => {
   return (
-    <section className="bg-gray-50 py-20 font-sans">
+    <section className="bg-gray-50 py-20 font-sans md:px-0 px-4">
       <div className="container mx-auto ">
    
 
@@ -95,35 +95,37 @@ const About = () => {
 
           {/* Right Content - Image Placeholder */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-[#0a1f55] to-[#132b74] rounded-2xl p-8 shadow-2xl">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-white flex">
-              <div className="w-1/2">
-                <h4 className="text-xl font-semibold mb-4">Why Choose Upflair?</h4>
-                <ul className="space-y-3">
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span>Industry-leading expertise</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span>Proven track record</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span>24/7 support & monitoring</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span>Customized solutions</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span>Global standards & compliance</span>
-                  </li>
-                </ul>
+            <div className="bg-gradient-to-br from-[#0a1f55] to-[#132b74] rounded-2xl p-6 md:p-8 shadow-2xl">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 md:p-6 text-white flex flex-col md:flex-row gap-4 md:gap-0">
+                <div className="w-full md:w-1/2">
+                  <h4 className="text-lg md:text-xl font-semibold mb-4">Why Choose Upflair?</h4>
+                  <ul className="space-y-2 md:space-y-3">
+                    <li className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+                      <span className="text-sm md:text-base">Industry-leading expertise</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+                      <span className="text-sm md:text-base">Proven track record</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+                      <span className="text-sm md:text-base">24/7 support & monitoring</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+                      <span className="text-sm md:text-base">Customized solutions</span>
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
+                      <span className="text-sm md:text-base">Global standards & compliance</span>
+                    </li>
+                  </ul>
                 </div>
-                <div className="w-3/5 pl-4">
-                    <img src="1.png" alt="" className="w-full h-full"/>
+                <div className="w-full md:w-1/2 md:pl-4 flex justify-center md:justify-end">
+                  <div className="w-full h-40 md:w-full md:h-auto max-w-xs">
+                    <img src="1.png" alt="Upflair Technology" className="w-full h-full object-contain rounded-lg"/>
+                  </div>
                 </div>
               </div>
             </div>
