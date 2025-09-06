@@ -173,10 +173,10 @@ export default function AboutPage() {
           </div>
 
           {/* Team Section */}
-          <div className="mb-20">
+          {/* <div className="mb-20">
             <h3 className="text-4xl font-semibold text-center text-gray-900 mb-12">Meet Our Leadership Team</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Team Member 1 */}
+       
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
                 <div className="h-64 bg-gray-300 relative">
                   <img 
@@ -193,7 +193,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Team Member 2 */}
+ 
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
                 <div className="h-64 bg-gray-300 relative">
                   <img 
@@ -210,7 +210,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Team Member 3 */}
+   
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
                 <div className="h-64 bg-gray-300 relative">
                   <img 
@@ -227,7 +227,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

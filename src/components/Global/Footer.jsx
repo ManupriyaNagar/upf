@@ -61,27 +61,26 @@ const Footer = () => {
                 href="https://www.google.com/maps/place/522%2Fa,+19th+Main+Rd,+Sector+3,+HSR+Layout,+Bengaluru,+Karnataka+560102/@12.9050462,77.6414794,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1499b113353d:0x3437676c18416969!8m2!3d12.905041!4d77.6440543!16s%2Fg%2F11snpzzg0y?entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-blue-400"
+                className="flex items-center gap-2 justify-center md:justify-start transition-colors duration-300 hover:text-[#169548]"
               >
-                <MapPin className="h-7 w-10 text-blue-400" />
+                <MapPin className="h-10 w-15 text-[#169548]" />
                 <span>
                   Ground floor, Srishyalaya No.523 A, 19th Main Service Road, HSR Layout Sector III,
-                  <br />
                   Bengaluru, Bengaluru Urban, Karnataka, 560102
                 </span>
               </a>
               <a
                 href="tel:+919035300045"
-                className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-blue-400"
+                className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-[#169548]"
               >
-                <Phone className="h-5 w-5 text-blue-400" />
+                <Phone className="h-5 w-5 text-[#169548]" />
                 <span>+91 9035300045</span>
               </a>
               <a
                 href="mailto:sales@upflair.in"
-                className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-blue-400"
+                className="flex items-center gap-3 justify-center md:justify-start transition-colors duration-300 hover:text-[#169548]"
               >
-                <Mail className="h-5 w-5 text-blue-400" />
+                <Mail className="h-5 w-5 text-[#169548]" />
                 <span>sales@upflair.in</span>
               </a>
             </div>
@@ -93,20 +92,20 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col items-center border-t border-slate-800 pt-6 text-sm md:flex-row md:justify-between">
-          <p className="text-gray-400 text-center md:text-left">
+          <p className="text-gray-900 text-center md:text-left">
             © {new Date().getFullYear()} Upflair. All rights reserved.
           </p>
 
           <div className="mt-4 flex gap-6 md:mt-0">
             <Link
               href=""
-              className="transition-colors duration-300 hover:text-blue-400"
+              className="transition-colors duration-300 hover:text-[#169548]"
             >
               Privacy Policy
             </Link>
             <Link
               href=""
-              className="transition-colors duration-300 hover:text-blue-400"
+              className="transition-colors duration-300 hover:text-[#169548]"
             >
               Terms of Service
             </Link>
@@ -114,12 +113,14 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-center pt-6">
+          <p>
+           Powered By
           <Link
             href="https://rbshstudio.com/"
-            className="transition-colors duration-300 hover:text-blue-400"
-          >
-            Powered By RBSH Studio
+            className="transition-colors duration-300 hover:text-[#169548]"
+          >   <span>  RBSH Studio</span>
           </Link>
+          </p>
         </div>
       </div>
     </footer>

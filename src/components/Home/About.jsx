@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { FiAward, FiUsers, FiTrendingUp, FiShield, FiGlobe, FiHeart } from "react-icons/fi";
 
 // Data for company values and achievements
@@ -84,9 +85,11 @@ const About = () => {
             
             {/* CTA Button */}
             <div className="pt-6">
-              <button className="bg-[#0a1f55] hover:bg-[#132b74] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-                Learn More About Us
-              </button>
+              <Link href="/about">
+                <button className="bg-[#0a1f55] hover:bg-[#132b74] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                  Learn More About Us
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -153,34 +156,7 @@ const About = () => {
         </div>
 
 
-        {/* <div>
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Our Core Values
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {companyValues.map((value, index) => (
-              <div 
-                key={index}
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-[#0a1f55]/20 cursor-pointer"
-              >
 
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#0a1f55]/10 text-[#0a1f55] transition-all duration-300 group-hover:bg-[#0a1f55] group-hover:text-white group-hover:scale-110">
-                  {value.icon}
-                </div>
-
-
-                <h4 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#0a1f55] transition-colors duration-300">
-                  {value.title}
-                </h4>
-
-        
-                <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
-                  {value.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div> */}
       </div>
     </section>
   );
