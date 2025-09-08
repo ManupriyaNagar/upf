@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { MessageCircle, X, Phone, Mail, Send, Bot, User } from "lucide-react";
 
 const AnimatedChatbot = () => {
@@ -15,6 +15,7 @@ const AnimatedChatbot = () => {
     const [inputMessage, setInputMessage] = useState("");
     const [isTyping, setIsTyping] = useState(false);
     const [showContactOptions, setShowContactOptions] = useState(false);
+    const messagesEndRef = useRef(null);
 
     const quickReplies = [
         "Get a Quote",
@@ -98,6 +99,15 @@ const AnimatedChatbot = () => {
         // Default response
         "default": "That's a great question! For detailed information about our electrical solutions and services, I'd recommend speaking with our expert team. Call us at +91 9035300045 or email sales@upflair.in. Our specialists can provide comprehensive answers tailored to your specific needs."
     };
+
+    // Auto-scroll to bottom when messages change
+    const scrollToBottom = () => {
+        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    useEffect(() => {
+        scrollToBottom();
+    }, [messages, isTyping]);
 
     const handleSendMessage = () => {
         if (!inputMessage.trim()) return;
@@ -264,6 +274,9 @@ const AnimatedChatbot = () => {
                                 </div>
                             </div>
                         )}
+                        
+                        {/* Invisible element to scroll to */}
+                        <div ref={messagesEndRef} />
                     </div>
 
                     {/* Quick Replies */}
