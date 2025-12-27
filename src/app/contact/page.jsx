@@ -29,8 +29,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Our Location</h3>
               <p className="text-gray-600 mb-2">Ground floor, Srishyalaya No.523 A, 19th Main Service Road, HSR Layout Sector III,
-Bengaluru, Bengaluru Urban, Karnataka, 560102</p>
-
+              Bengaluru, Bengaluru Urban, Karnataka, 560102</p>
             </div>
 
             {/* Phone Card */}
@@ -40,7 +39,7 @@ Bengaluru, Bengaluru Urban, Karnataka, 560102</p>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Call Us</h3>
               <p className="text-gray-600 mb-2">+91 90353 00045</p>
-              <p className="text-gray-600">Mon-Fri 9am-6pm EST</p>
+              <p className="text-gray-600">Mon-Fri 9am-6pm IST</p>
             </div>
 
             {/* Email Card */}
@@ -60,7 +59,7 @@ Bengaluru, Bengaluru Urban, Karnataka, 560102</p>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Business Hours</h3>
               <p className="text-gray-600 mb-2">Monday - Friday</p>
-              <p className="text-gray-600">9:00 AM - 6:00 PM EST</p>
+              <p className="text-gray-600">9:00 AM - 6:00 PM IST</p>
             </div>
           </div>
 

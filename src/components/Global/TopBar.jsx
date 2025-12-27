@@ -33,8 +33,7 @@ export default function TopBar() {
           <div className="flex space-x-3">
 
             <a href="https://www.linkedin.com/company/uplflair/posts/?feedView=all" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
-           
-
+            {/* <a href="" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a> */}
           </div>
         </div>
       </div>

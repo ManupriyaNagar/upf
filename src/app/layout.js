@@ -8,21 +8,19 @@ import Footer from "@/components/Global/Footer";
 export const metadata = {
   title: "Upflair",
   description: "Empowering your Potential, Energising your Growth",
-
-
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
-export const favicon = { favicon  : "./favicon.png",};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.png" type="image/png" />
-      </head>
+      <head />
       <body>
         <div className="hidden md:block">
-          <TopBar/>
+          <TopBar />
         </div>
         <Headers />
         {children}

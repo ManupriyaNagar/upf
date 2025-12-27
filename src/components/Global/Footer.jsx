@@ -35,7 +35,7 @@ const Footer = () => {
               priority
             />
             <p className="text-[0.922rem]">Upflair Technologies started as a start-up with a focus on delivering efficient, high-quality UPS solutions for small and medium-sized businesses. We are proud to be the first power-saving and backup solution providers in Bengaluru, ensuring seamless power continuity for our clients.</p>
-     
+
           </div>
 
           {/* Column 2 */}
@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
 
           {/* Column 4 */}
-       
+
         </div>
 
         {/* Bottom Bar */}
@@ -114,12 +114,12 @@ const Footer = () => {
 
         <div className="flex justify-center pt-6">
           <p>
-           Powered By
-          <Link
-            href="https://rbshstudio.com/"
-            className="transition-colors duration-300 hover:text-[#169548]"
-          >   <span>  RBSH Studio</span>
-          </Link>
+            Powered By
+            <Link
+              href="https://rbshstudio.com/" target="_blank"
+              className="transition-colors duration-300 hover:text-[#169548]"
+            >   <span>  RBSH Studio</span>
+            </Link>
           </p>
         </div>
       </div>
