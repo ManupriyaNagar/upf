@@ -5,7 +5,7 @@ import BlogCard from "@/components/dashboard/BlogCard";
 export default function BlogsPage() {
     const [blogs, setBlogs] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend.onrender.com/api";
+    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend-sc90.onrender.com/api";
 
     useEffect(() => {
         // Fetch blogs from backend

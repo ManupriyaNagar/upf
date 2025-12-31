@@ -14,7 +14,7 @@ const BlogCard = ({ blog, onEdit, onDelete }) => {
 
     // Construct image URL
     // If image is a local path (starts with /), prepend the backend base URL
-    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend.onrender.com/api";
+    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend-sc90.onrender.com/api";
     const BASE_URL = API_BASE.replace('/api', ''); // Get the root domain (e.g. http://localhost:5000)
 
     const imageSrc = image && image.startsWith('/')

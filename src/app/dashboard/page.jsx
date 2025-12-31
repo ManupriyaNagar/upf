@@ -9,7 +9,7 @@ export default function DashboardPage() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [editingBlog, setEditingBlog] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend.onrender.com/api";
+    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend-sc90.onrender.com/api";
 
     // Load blogs from backend
     useEffect(() => {

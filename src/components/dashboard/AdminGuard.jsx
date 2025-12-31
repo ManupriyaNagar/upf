@@ -9,7 +9,7 @@ export default function AdminGuard({ children }) {
     const [pin, setPin] = useState("");
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(true);
-    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend.onrender.com/api";
+    const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend-sc90.onrender.com/api";
 
     useEffect(() => {
         // Check session storage on mount
