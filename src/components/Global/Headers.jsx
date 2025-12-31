@@ -146,9 +146,8 @@ const Headers = () => {
             <button className="flex items-center gap-1 hover:text-blue-700 transition">
               Solutions
               <FiChevronDown
-                className={`transition-transform duration-200 ${
-                  isSolutionsOpen ? "rotate-180" : ""
-                }`}
+                className={`transition-transform duration-200 ${isSolutionsOpen ? "rotate-180" : ""
+                  }`}
               />
             </button>
             {isSolutionsOpen && (
@@ -187,9 +186,8 @@ const Headers = () => {
             <button className="flex items-center gap-1 hover:text-blue-700 transition">
               Services
               <FiChevronDown
-                className={`transition-transform duration-200 ${
-                  isServicesOpen ? "rotate-180" : ""
-                }`}
+                className={`transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""
+                  }`}
               />
             </button>
             {isServicesOpen && (
@@ -218,6 +216,9 @@ const Headers = () => {
               </div>
             )}
           </div>
+          <a href="/blogs" className="hover:text-blue-700 transition">
+            Blogs
+          </a>
         </nav>
 
         {/* Desktop Button */}
@@ -256,9 +257,8 @@ const Headers = () => {
             >
               Solutions
               <FiChevronDown
-                className={`transition-transform ${
-                  isSolutionsOpen ? "rotate-180" : ""
-                }`}
+                className={`transition-transform ${isSolutionsOpen ? "rotate-180" : ""
+                  }`}
               />
             </button>
             {isSolutionsOpen && (
@@ -284,9 +284,8 @@ const Headers = () => {
             >
               Services
               <FiChevronDown
-                className={`transition-transform ${
-                  isServicesOpen ? "rotate-180" : ""
-                }`}
+                className={`transition-transform ${isServicesOpen ? "rotate-180" : ""
+                  }`}
               />
             </button>
             {isServicesOpen && (
