@@ -44,8 +44,12 @@ export default function BlogsPage() {
                     </div>
                 ) : blogs.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {blogs.map((blog) => (
-                            <BlogCard key={blog._id || blog.id} blog={blog} />
+                        {blogs.map((blog, index) => (
+                            <BlogCard 
+                                key={blog._id || blog.id} 
+                                blog={blog} 
+                                isLatest={index === 0}
+                            />
                         ))}
                     </div>
                 ) : (

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn, FaExternalLinkAlt } from "react-icons/fa";
 
-const BlogCard = ({ blog, onEdit, onDelete }) => {
+const BlogCard = ({ blog, onEdit, onDelete, isLatest }) => {
     const { image, title, paragraph, content, linkedinUrl, link, _id, id } = blog;
 
     // Fallbacks for data compatibility
@@ -13,16 +13,27 @@ const BlogCard = ({ blog, onEdit, onDelete }) => {
     const blogId = _id || id;
 
     // Construct image URL
+    // If image is already a full URL (Cloudinary), use it directly
     // If image is a local path (starts with /), prepend the backend base URL
     const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "https://upfbackend-sc90.onrender.com/api";
     const BASE_URL = API_BASE.replace('/api', ''); // Get the root domain (e.g. http://localhost:5000)
 
-    const imageSrc = image && image.startsWith('/')
-        ? `${BASE_URL}${image}`
-        : (image || "https://images.unsplash.com/photo-1499750310159-5b5f22693851?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+    const imageSrc = image 
+        ? (image.startsWith('http://') || image.startsWith('https://'))
+            ? image // Cloudinary URL or external URL
+            : `${BASE_URL}${image}` // Local path
+        : "https://images.unsplash.com/photo-1499750310159-5b5f22693851?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"; // Fallback
 
     return (
         <div className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col h-full transform hover:-translate-y-1">
+            
+            {/* Latest Badge */}
+            {isLatest && (
+                <div className="absolute top-4 right-4 z-10 bg-gradient-to-r from-red-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg animate-pulse">
+                    ✨ LATEST
+                </div>
+            )}
+
             {/* Image Container */}
             <div className="relative h-56 w-full overflow-hidden">
                 <Image
@@ -45,15 +56,7 @@ const BlogCard = ({ blog, onEdit, onDelete }) => {
 
             {/* Content */}
             <div className="p-6 flex flex-col flex-grow">
-                <div className="flex justify-between items-start mb-2">
-                    <span className="text-xs font-semibold text-[#0a1f55] bg-[#0a1f55]/5 px-2 py-1 rounded-md">
-                        {new Date(blog.createdAt || Date.now()).toLocaleDateString("en-US", {
-                            month: "short",
-                            day: "numeric",
-                            year: "numeric"
-                        })}
-                    </span>
-                </div>
+                
                 <h3 className="text-xl font-bold text-gray-800 mb-3 line-clamp-2 leading-tight group-hover:text-[#0a1f55] transition-colors">
                     {title}
                 </h3>

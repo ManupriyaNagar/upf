@@ -166,12 +166,13 @@ export default function DashboardPage() {
                 </div>
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {blogs.map((blog) => (
+                    {blogs.map((blog, index) => (
                         <BlogCard
                             key={blog._id || blog.id}
                             blog={blog}
                             onEdit={handleEditBlog}
                             onDelete={handleDeleteBlog}
+                            isLatest={index === 0}
                         />
                     ))}
                 </div>

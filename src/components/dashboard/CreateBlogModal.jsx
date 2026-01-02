@@ -141,9 +141,12 @@ const CreateBlogModal = ({ isOpen, onClose, onCreate, initialData }) => {
                             {formData.imagePreview && (
                                 <div className="mt-2 relative h-32 w-full rounded-lg overflow-hidden border border-gray-200">
                                     <img
-                                        src={formData.imagePreview.startsWith('blob:')
-                                            ? formData.imagePreview
-                                            : `${process.env.NEXT_PUBLIC_API_BASE_URL?.replace('/api', '') || 'https://upfbackend-sc90.onrender.com'}${formData.imagePreview}`
+                                        src={
+                                            formData.imagePreview.startsWith('blob:')
+                                                ? formData.imagePreview // New file upload preview
+                                                : (formData.imagePreview.startsWith('http://') || formData.imagePreview.startsWith('https://'))
+                                                    ? formData.imagePreview // Cloudinary URL or external URL
+                                                    : `${process.env.NEXT_PUBLIC_API_BASE_URL?.replace('/api', '') || 'https://upfbackend-sc90.onrender.com'}${formData.imagePreview}` // Local path
                                         }
                                         alt="Preview"
                                         className="w-full h-full object-cover"
