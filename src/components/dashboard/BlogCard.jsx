@@ -25,11 +25,11 @@ const BlogCard = ({ blog, onEdit, onDelete, isLatest }) => {
         : "https://images.unsplash.com/photo-1499750310159-5b5f22693851?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"; // Fallback
 
     return (
-        <div className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col h-full transform hover:-translate-y-1">
+        <div className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg  border border-gray-100 flex flex-col h-full ">
             
             {/* Latest Badge */}
             {isLatest && (
-                <div className="absolute top-4 right-4 z-10 bg-gradient-to-r from-red-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg animate-pulse">
+                <div className="absolute top-4 right-4 z-10 bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg animate-pulse">
                     ✨ LATEST
                 </div>
             )}
@@ -41,7 +41,7 @@ const BlogCard = ({ blog, onEdit, onDelete, isLatest }) => {
                     alt={title}
                     fill
                     priority
-                    className=" group-hover:scale-110 transition-transform duration-500"
+                    className=" "
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-4">
                     <Link
